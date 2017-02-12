@@ -1,0 +1,28 @@
+/* Css1 pentru Enered */
+.container {
+	width:100%;
+	height:100%;
+	padding:20px 30px;
+}
+.container .row {
+	max-height:50px;
+	padding:16px;
+	background-color: blue;
+}
+.container .content {
+	border:1px solid #ddd;
+	padding:20px;
+	background-color:#efefef;
+}
+.container .content .info-text {
+	color:#59595b;
+	margin:0;
+	font-style: italic;
+	font-weight: bold;
+}
+a {
+    text-decoration: none;
+    color: #000;
+    margin-left: 20px;
+    font-weight: bold;
+}
