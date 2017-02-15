@@ -1,0 +1,35 @@
+.boxsize{
+	display: block;
+	width: 60%;
+	height: 200px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	color: blue;
+	font-family: comic;
+	font-size: 15px;
+}
+body{
+	background-image: url("1.jpg");	
+	background-position: center;
+}
+.ftext{
+	color: red;
+	font-size: 20px;
+	background-color: green;
+	display: inline-block;
+	padding: 1%;
+	margin: 10px;
+
+}
+.ftext .ttext{
+	color: blue;
+}
+.bth{
+	    background-color: #2e3e4e;
+    color: #20c545;
+    box-shadow: 0px 1px 20px 9px black;
+    display: inline-block;
+    padding: 5px;
+}
