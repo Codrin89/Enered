@@ -1,0 +1,19 @@
+body{
+	background-image:url("12.png");
+	width:80%;
+	border-radius: 20%;
+}
+h1{
+	font-family: "Comic Sans Ms";
+	font-size: 63px;
+	text-shadow: 4px 4px pink;
+	text-align: center;
+}
+p{
+	font-family: "Comic Sans Ms";
+	font-style: italic;
+	font-weight: bold;
+	font-size: 19px;
+	color: orange;
+	text-shadow: 2px 3px purple;
+	text-indent: 60px;
