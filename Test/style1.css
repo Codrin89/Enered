@@ -1,0 +1,19 @@
+.container .row {
+	max-height:50px;
+	padding:16px;
+	background-color: red;
+}
+body {
+	background-image: url("test.jpg");
+}
+.container form .form-input{
+	clear:both;
+	width:400px;
+	height:20px;
+	border: 1px solid #75aae5;
+	display:block;
+	margin-bottom: 5px;
+	text-indent:10px;
+	border-radius: 10px;
+}
+ 
