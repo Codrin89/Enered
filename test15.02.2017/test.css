@@ -1,0 +1,24 @@
+.content form {
+	padding: 10px 0;
+}
+.content form .form-input {
+	clear:both;
+	width:400px;
+	height:40px;
+	border: 1px solid #75aae5;
+	display:block;
+	margin-bottom: 30px;
+	text-indent:10px;
+}
+.content form .submit-btn {
+	color: #fff;
+	background-color: green;
+	display: block;
+	padding:5px 10px;
+	border-radius: 10%;
+}
+
+h1 {font-family:arial black;}
+p {font-style:italic;
+   font-size:30;
+}
