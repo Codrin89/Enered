@@ -1,0 +1,22 @@
+input{
+
+  color:green;
+  outline:none;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding: 5px 10px 5px 10px;
+}
+
+body {
+	background-image:url(http://gameranx.com/wp-content/uploads/2016/03/Firewatch-4K-Wallpaper-1.jpg);
+}
+.container  {
+		text-align: justify;
+		margin-bottom: auto;
+		margin-right: auto;
+		margin-left: auto;
+		width: 800px;
+		min-width: auto;
+		height: 800px;
+		font-style: italic;
+}
