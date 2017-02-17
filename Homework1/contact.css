@@ -1,0 +1,33 @@
+.content form{
+	padding: 10px 0;
+	/*background-color: lightgrey;  */
+
+}
+.content form .form-input{
+	clear: both;
+	width: 400px;
+	height: 40px;
+	border: 1px solid #75aae5;
+	display: block;
+	margin-bottom: 30px;
+	text-indent: 10px;
+
+}
+
+.content form .form-textarea{
+	max-width: 400px';    
+	max-height:150px;
+	height: 150px;
+	width: 400px;
+	margin-bottom: 30px;
+	border: 1px solid #75aae5;
+	text-indent: 10px; /* indentare text de la stanga la dreapta */
+}
+
+.content form .submit-btn{
+	background-color: red;
+	border :4px dotted green;  /*   dotted  => border depunctat*/
+	border-radius: 30px;
+	display: block;  /* muta buton jos  stanga */
+	outline: none;
+	}
