@@ -1,0 +1,77 @@
+@font-face {
+	font-family: 'OpenSans';
+	src: url("./OpenSans/OpenSans-Regular.ttf") format("truetype");
+}
+@font-face {
+	font-family: 'OpenSansbold';
+	src: url("./OpenSans/OpenSans-Bold.ttf") format("truetype");
+	src: url("./OpenSans/OpenSans-Bold.eot")
+	src: url("./OpenSans/OpenSans-Bold.woff")
+}
+@font-face {
+	font-family: 'OpenSansitalic';
+	src: url("./OpenSans/OpenSans-Italic.ttf") format("truetype");
+}
+* { /* selector universal over-write browser style*/
+	margin: 0;
+	padding: 0;
+}
+.container {
+		width: calc(50% - 5px);
+		float:left;
+		background-color: pink;
+}
+.container .text-1{
+	color:#888;
+	font-size:40px; /* dimensiune text */
+	font-weight: bold; /* grosime text */
+	font-family: "OpenSans";
+	text-decoration: line-through;
+}
+.container .text-2 {
+	color: #888;
+	font-size: 40px;
+	font-weight:  bold;
+}
+.container .text-3{
+	color: #888;
+	font-size: 40px; /* dimensiune text */
+	/*font-weight:  bold; /* grosime text */
+	font-family: "OpenSansbold";
+	opacity: 0.6;
+}
+.container .text-4{
+	color:#888;
+	font-size:40px; /* dimensiune text */
+	/*ont-weight: bold; /* grosime text */
+	font-family: "OpenSansitalic";
+}
+.container.container-2 {
+	position: relative;
+	background-color: blue;
+}
+.container .text-5{
+	color:black;
+	font-size:40px; /* dimensiune text */
+	/*ont-weight: bold; /* grosime text */
+	font-family: "OpenSansitalic";
+}
+.container .text-6{
+	color:yellow;
+	font-size:40px; /* dimensiune text */
+	/*ont-weight: bold; /* grosime text */
+	font-family: "OpenSansbold";
+}
+.container .text-7{
+	color:purple;
+	font-size:40px; /* dimensiune text */
+	/*ont-weight: bold; /* grosime text */
+	font-family: "OpenSansitalic";
+}
+.container .text-8{
+	color:pink;
+	font-size:40px; /* dimensiune text */
+	/*ont-weight: bold; /* grosime text */
+	font-family: "OpenSansbold";
+	text-shadow: 10px 10px 10px #888888;
+}
