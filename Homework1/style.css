@@ -1,0 +1,43 @@
+/* comment */
+.container{
+	width: 90%;
+	height: 90%;
+	/*background-color: #ff0000;*/
+	padding: 20px 30px;
+}
+
+.container .row{
+	max-height: 50px;
+	padding: 16px;/* centrare in interior text*/
+	background-color: blue;
+}
+
+a{
+	text-decoration: none;   
+	color:#fff;
+	margin-left:16px;
+	font-weight:bold;
+}
+
+.container .content{
+	/*color:red;
+	font-weight: bold;
+	text-decoration: underline;
+	border: 3px solid #8AC007;
+	margin-top:16px;
+	width: 200px;
+    height: 100px;*/
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #efefef;
+
+
+}
+
+.container .content .info-text{
+	color:#59595b;
+	margin: 0;
+	font-style: italic;
+	font-weight: bold;
+}
+
