@@ -1,0 +1,89 @@
+@font-face {
+	font-family: 'OpenSans';
+	src : url("./OpenSans/OpenSans-Regular.ttf") format("truetype");
+	src : url("./OpenSans/OpenSans-Regular.eot") format("truetype");
+	src : url("./OpenSans/OpenSans-Regular.woff") format("truetype");
+}
+}
+
+}
+@font-face {
+	font-family: 'OpenSansBold' ;
+	src: url("./OpenSans/OpenSans-Bold.ttf") format("truetype");
+}
+@font-face {
+	font-family: 'OpenSansItalic' ;
+	src: url("./OpenSans/OpenSans-Italic.ttf") format("truetype");
+}
+* { /*selector universal over-write browser style*/
+	margin:0;
+	padding: 0;
+}
+.container {
+	width: calc(50% - 50px) ;
+	height: auto;
+	display: inline-block;
+	position: relative;
+	background-color: red;
+}
+
+.container .text-1 {
+	color: #888 ;
+	font-size: 40px; /*dimensiune text */
+	font-weight: bold; /* grosime text */
+	font-family: "OpenSans";
+	text-decoration: line-through;
+
+}
+.container .text-2 {
+	color: #888 ;
+	font-size: 40px ; /* "-" */
+	font-weight: bold; /* "-" */
+}
+.container .text-3 {
+	color: #888;
+	font-size: 40px; /*dimensiune text*/
+	/*font-weight: bold ; /*grosime text */
+	font-family: "OpenSansBold" ;
+	opacity: 0.6 ;
+}
+.container .text-4 {
+	color:#888;
+	font-size: 40px; /*dimensiune text*/
+	font-weight: bold ;
+	font-family: "OpenSansItalic"
+}
+.container-2 > p {
+	position: relative;
+}
+.container .text-5 {
+	font-size: 40px;
+	font-weight: italic ;
+	position: relative;
+	/*position: fixed;*/container
+}
+
+.container.container-2 {
+	color:blue;
+	background-color: purple;
+}
+.container .text-6 {
+	color:orange;
+	font-size: 30px ;
+	font-weight: initial; 
+	position: relative;
+
+}
+.container .text-7 {
+	color:#ff3377;
+	font-size: 50px;
+	font-weight: bold ;
+	position :relative
+	opacity : 0.9;
+}
+.container .text-8 {
+	color : blue;
+	font-size : 25px;
+	font-weight: italic ;
+	position: fixed;
+}
