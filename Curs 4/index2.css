@@ -1,0 +1,24 @@
+@font-face {
+	font-family: 'OpenSans';
+	src: url("./OpenSans/OpenSans-Regular.ttf") format("truetype");
+	src: url("./OpenSans/OpenSans-Regular.eot");
+	src: url("./OpenSans/OpenSans-Regular.woff");
+}
+
+@font-face {
+	font-family: 'OpenSansBold';
+	src: url("./OpenSans/OpenSans-Bold.ttf") format("truetype");
+
+}
+
+@font-face {
+	font-family: 'OpenSansItalic';
+	src: url("./OpenSans/OpenSans-Italic.ttf") format("truetype");
+
+}
+
+@font-face {
+	font-family: 'OpenSansMS';
+	src: url("./OpenSans/comicbd.ttf") format("truetype");
+
+}
