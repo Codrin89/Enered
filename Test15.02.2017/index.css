@@ -1,0 +1,60 @@
+@font-face {
+	font-family: 'OpenSans';
+	src: url("./OpenSans/OpenSans-Regular.ttf") format("truetype");
+	src: url("./OpenSans/OpenSans-Regular.eot");
+	src: url("./OpenSans/OpenSans-Regular.woff");
+}
+@font-face {
+	font-family: 'OpenSansItalic';
+	src: url("./OpenSans/OpenSans-Italic.ttf") format("truetype");
+}
+@font-face {
+	font-family: 'OpenSansBold';
+	src: url("./OpenSans/OpenSans-Bold.ttf") format("truetype");
+}
+* {
+	margin:0;
+	padding:0;
+}
+.container {
+	width:calc(50% - 50px);
+	height:auto;
+	display: inline-block;
+	position: relative;
+}
+.container .text-1 {
+	color:#555;
+	font-size:20px;
+	font-weight:bold;
+	font-family: "OpenSans";
+	text-decoration: underline;
+}
+.container .text-2 {
+	color: #888;
+	font-size: 30px;
+	text-decoration: line-through;
+	}
+
+.container .text-3 {
+	color: #888;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: "OpenSansItalic";
+	opacity: 0.2;
+}
+.container .text-4 {
+	color: #888;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: : "OpenSansItalic";
+}
+.container-2 {
+	position: absolute;
+	top: 0;
+}
+.container.container-2 {
+	color: blue;
+}
+.container-2 {
+	color: red;
+}
