@@ -1,0 +1,31 @@
+h1{
+  color:blue;
+}
+button {
+  color:purple !Important;
+  outline:none;
+  border:1px solid transparent;
+  border-radius:10px;
+  padding:5px 10px 5px 10px;
+}
+.button{
+  color:red;
+  background-color:rgba(255, 0, 0, 0.5);
+}
+input{
+  color:green;
+}
+input:hover{
+  color:yellow;
+}
+.container{
+
+}
+.container img{
+
+}
+body{
+  background-image:url("40.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+}
