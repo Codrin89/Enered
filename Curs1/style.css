@@ -1,0 +1,33 @@
+body{
+	background-image: url("1234.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+}
+.text{
+	font-size: 40px;
+	color:#000;
+	font-style: oblique;
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
+	
+
+}
+.input{
+	color:blue;
+	width: 320px;
+	height: 85px;
+	padding: 1%;
+	background-color: red;
+	display: inline-block;
+}
+.buton{
+	color: #fff;
+	background-color: green;
+	
+	padding:5px 10px;
+	border-radius: 50%;
+	width: 90px;
+}

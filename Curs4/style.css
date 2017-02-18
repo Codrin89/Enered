@@ -1,0 +1,67 @@
+@font-face{
+	font-family: "OpenSansItalic";
+	src:url("./OpenSans/OpenSans-Italic.ttf") format("truetype");
+	/*src:url("./OpenSans/OpenSans-Italic.eot") ;  sa fii sigur ca ia toate fonturile*/
+}
+
+@font-face{
+	font-family: "inktecfont";
+	src:url("./OpenSans/inktecfont.ttf") format("truetype");
+}
+
+@font-face{
+	font-family: "OpenSansBold";
+	src:url("./OpenSans/OpenSans-Bold.ttf") format("truetype");
+}
+
+*{ /* selector universal over-write browser style*/
+	margin: 0;
+	padding: 0
+}
+
+.container{
+	width: 33%; /* respectam spatiile la "-" ;  dimensiunea la container in pagina!!! */
+	height: auto;
+	/*display: inline-block;	*	nul pui ca ai float */	
+	position: relative;
+	float: left;
+}
+
+.container .text-1 {
+	color: #888;
+	font-size: 20px;	/* dimensiune text*/
+	font-weight: bold;	/* grosime text */
+	font-family: "OpenSans"; /* trebuie luat din @font-face*/
+	text-decoration: underline;
+}
+
+.container .text-2{
+	color: #808;
+	font-size: 20px;	/* dimensiune text*/
+	font-weight: bold;	/* grosime text */
+	font-family: "inktecfont";
+	text-decoration: line-through;
+}
+
+.container .text-3{
+	color: #808;
+	font-size: 20px;	/* dimensiune text*/
+	font-weight: bold;	/* grosime text */
+	font-family: "OpenSans-Bold";
+	opacity: 0.3;
+}
+
+.container .text-4{
+	color: #808;
+	font-size: 20px;	/* dimensiune text*/
+	font-weight: bold;	/* grosime text */
+	font-family: "OpenSansItalic";
+}
+
+.container.container-2{   /* targetam 2 container mai bn (cauta elementu care contin pe amandoua*/
+	color: blue;
+}
+
+.container-2{  				/* se anuleaza RED pt ca mai sus e mai specificat containeru*/
+	color:red;																				
+}
