@@ -1,0 +1,89 @@
+@font-face{
+	font-family: '1';
+	src: url("./ahronbd.ttf") format("truetype");
+}
+@font-face{
+	font-family: '2';
+	src: url("./comicbd.ttf") format("truetype");
+}
+@font-face{
+	font-family: '3';
+	src: url("./BuxtonSketch.ttf") format("truetype");
+}
+@font-face{
+	font-family: '4';
+	src: url("./comic.ttf") format("truetype");
+}
+*{/* selector universal over-write browser style*/
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: calc(30% - 30px);
+	height: auto;
+	display: inline-block;
+}
+.container .text-1{
+	color: #888;
+	font-family: "1";
+	font-weight: bold;
+	font-size: 30px; 
+	text-shadow: 1px 1px orange;
+	text-decoration:underline;
+
+}
+.container .text-2{
+	color: #888;
+	font-family: "2";
+	font-weight: bold;
+	font-size: 30px;
+	text-shadow: 2px 2px red;
+	text-decoration: line-through;
+}
+.container .text-3{
+	color: #888;
+	font-weight: bold;
+	font-size: 30px;
+	font-family: "3";
+	text-shadow: 2px 2px yellow;
+	opacity: 0.6;
+}
+.container .text-4{
+	color: #888;
+	font-weight: bold;
+	font-size: 30px;
+	font-family: "4";
+	font-style: italic;
+	text-shadow: 2px 2px blue;
+}
+.container.container-2{
+	color:red;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: "Comic Sans Ms";
+	position: relative;
+	top:20px;
+	left:-27px;
+}
+.container.container-2 .text-5{
+	color:blue;
+	font-family: "Comic Sans Ms";
+	text-shadow: 3px 3px purple;
+	font-size: 30px;
+}
+.container.container-2 .text-6{
+	color: purple;
+	font-family:"Comic Sans Ms";
+	text-shadow: 2px 2px pink;
+	font-size: 30px;
+	text-decoration: line-through;
+}
+.container.container-3 {
+	color:blue;
+	font-weight: bold;
+	font-size: 25px;
+	font-family: "Comic Sans Ms";	
+}
+.container.container-3 .text-9{
+	color: pink;
+}
