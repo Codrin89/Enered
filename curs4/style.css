@@ -1,0 +1,68 @@
+@font-face{
+	font-family: 'OpenSans';
+	src: url("./OpenSans/OpenSans-Regular.ttf") format("truetype");
+}
+@font-face{
+	font-family: 'OpenSansItalic';
+	src: url("./OpenSans/OpenSans-Italic.ttf") format("truetype");
+	src: url("./OpenSans/OpenSans-Italic.eof") ;
+	src: url("./OpenSans/OpenSans-Italic.woff") ;
+}
+
+@font-face{
+	font-family: 'OpenSansBold';
+	src: url("./OpenSans/OpenSans-Bold.ttf") format("truetype");
+}
+
+*{  /* selector  universal over-write btowser style===> de fapt scoate marginile puse automat de chrome*/
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: calc(50% - 50px);
+	height: auto;
+	display: inline-block;
+	position: relative;
+}
+
+
+.container .text-1{
+	color: #888;
+	font-size: 30px;   /* dimensiune text*/
+	font-weight: bold;  /* grosime text*/
+	font-family: "OpenSans";
+	text-decoration: line-through;
+
+} 
+
+.container .text-2{
+	color: #888;
+	font-size: 30px;   /* dimensiune text*/
+	font-weight: bold;  /* grosime text*/
+	opacity: 0.3;
+}
+
+.container .text-3{
+	color: #888;
+	font-size: 30px;   /* dimensiune text*/
+	/*font-weight: bold;  grosime text*/
+	font-family: "OpenSansBold";
+}
+.container .text-4{
+	color: #888;
+	font-size: 30px;   /* dimensiune text*/
+	/*font-weight: bold;  grosime text*/
+	font-family: "OpenSansItalic";
+}
+
+.container-2 {
+	position: absolute;
+	top: 0;
+}
+
+.container.container-2{
+	color: blue;
+}
+.container-2{
+	color: red;
+}
