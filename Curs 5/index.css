@@ -1,0 +1,37 @@
+.container {
+		background-color: coral;
+		height: 500px;
+		display: block;
+		border: 3px solid blue;
+	}
+
+.container .row < div < div {
+	text-align: center;
+}
+.container .row > div {
+	height: 100px;
+}
+.container .row .red {
+	background-color: coral;
+	height: 220px;
+}
+.container .row .blue {
+	background-color: green;
+	height: auto;
+}
+.container .row .green {
+	background-color: coral;
+	height: 220px;
+}
+.container .row .btn-warning {
+	background: purple;
+	border: 1px solid white;
+
+}
+.container .row .btn-warning:hover {
+	background: pink;
+
+}
+.container .row.form > div {
+	height: 100px;
+}

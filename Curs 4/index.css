@@ -4,7 +4,7 @@
 .container {
 	width: calc(35% - 100px);
 	height:auto;
-	
+	background:bisque;
 	 float: left
 }
 
@@ -46,7 +46,7 @@
 }
 .container-2  {
 	float:left;
-	background: red;
+	background: aquamarine;
 	
 }
 .container-2 .text-5 {
@@ -54,4 +54,6 @@
 }
 .container-3 {
 	  float: left;
+	  background:antiquewhite;
+
 }
