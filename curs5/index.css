@@ -1,0 +1,31 @@
+.container {
+	border: 1px solid #ddd;
+}
+.container .row > div > div {
+	text-align:  center;
+}
+.container .row > div{
+	height: 300px;
+}
+.container .row .blue{
+background-color: blue;
+}
+.container .row .green{
+background-color: green;
+}
+.container .row .red {
+background-color: red;
+}
+.container .row > div .img-responsive{
+height:300px;
+}
+.container .row .btn-warning{
+	background:purple;
+	border:1px solid white;
+}
+.container .row .btn-warning:hover{
+	background: pink;
+}
+.container .row.form>div{
+	height: 100px;
+}
