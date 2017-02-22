@@ -1,0 +1,32 @@
+.container {
+	
+
+}
+.container .row > div > div {
+	text-align: center;
+}
+.container .row >div {
+	height: 300px;
+}
+.container .row .red {
+	background-color: #ffff00;
+}
+.container .row .blue {
+	background-color: #E0FFFF;
+}
+.container .row .green {
+	background-color: #7FFF00;
+}
+
+.container .row >div .img-responsive {
+	height: 300px;
+}
+.container .row .btn-danger {
+	background: purple;
+}
+.container .row .btn-danger:hover{
+	background: red;
+}
+.container .row.form > div {
+	height: 100px;
+}
