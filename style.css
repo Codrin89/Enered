@@ -1,28 +1,39 @@
-/* Css1 pentru Enered */
 .container {
-	width:100%;
-	height:100%;
-	padding:20px 30px;
-}
-.container .row {
-	max-height:50px;
-	padding:16px;
-	background-color: blue;
-}
-.container .content {
-	border:1px solid #ddd;
-	padding:20px;
-	background-color:#efefef;
-}
-.container .content .info-text {
-	color:#59595b;
-	margin:0;
-	font-style: italic;
-	font-weight: bold;
+	border:1px solid #5e2323;
+	height: 30px;
+	font-size: 20px;
 }
 a {
-    text-decoration: none;
-    color: #000;
+    color: #a35c5c;
     margin-left: 20px;
     font-weight: bold;
+}
+h1{
+	height: 50px;
+	min-height: 50px;
+	font-weight: bold;
+	color: #5e2323;
+	background-color: #f0c3a2;
+	border-bottom: 1px solid #f0c3a2;
+	padding: 4px 10px;
+}
+.container2 .row2 > div .img-responsive {
+	height:200px;
+	width: 400px;
+
+}
+.container2 .row3 >div {
+	background-color: #d6b788;
+}
+.container2 .list-group-item{
+	background-color: #e3d5b6;
+}
+p{
+	font-size: 18px;
+	color: #aa8d71;
+	text-align: -webkit-center;
+}
+.container2 .row2 .image{
+	height: 300px;
+	width: 600px;
 }
