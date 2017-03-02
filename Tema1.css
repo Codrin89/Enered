@@ -1,0 +1,21 @@
+.body {
+	background-color: #171717 ;
+}
+.image-space{
+     margin: 10px 0px 10px 0px;
+ }
+a.list-group-item {
+	background-color: #A2BAE0;
+}
+.navbar-default .navbar-collapse {
+	background-color :#F8FEE0 ;
+	margin-top: 70px;
+}
+.container1 {
+	position: fixed;
+	width: 100%;
+	background-color: #0088B2;
+	text-align: center;
+	z-index: 999;
+
+}
