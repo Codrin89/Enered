@@ -3,6 +3,7 @@ body{
     margin-left: 10%;
     min-width:1250px;
     overflow: auto;
+    background-color: rgb(185, 57, 21);
 }
 .topmenu{
 	margin-left: 35px
@@ -37,6 +38,9 @@ body{
     display: inline-block;
     background-color: white;
     border: 1px solid #c1c1c1;
+    font-style: italic;
+    font-weight: 900;
+    background: #d4adad;
 }
 .container2{
     height: 750px;
@@ -46,25 +50,27 @@ body{
     position: relative;
     border: 1px solid #c1c1c1;
     padding-left: 3px;
+    background: #a6b0da;
 }
-body{
-	background-color:rgba(80, 93, 90, 0.11);
 
-}
 .imgs{
-    width: 205px;
-    height: 149px;
+    width: 200px;
+    height: 150px;
 	border-radius: 10px;
 }
 .imgcontainer{
 	display: inline-block;
+    padding-left: 4px;
 }
 .imgbutton{
-	background-color: #3f5a39;
-    font-size: 24px;
-    margin-left: 69px;
-    color: white;
-    border-radius: 30px;
+    background-color: #687584;
+    font-size: 16px;
+    margin-left: 52px;
+    margin-bottom: 20px;
+    color: #000000;
+    border-radius: 18px 18px 53px 53px;
+    width: 98px;
+    height: 23px;
 }
 .banner{
     width: 832px;
@@ -104,4 +110,29 @@ body{
     left: 8px;
     font-size: 18px;
     color: #8c8787;
+}
+.p1{
+    color: #9e9532;
+}
+.p2{
+    color: #9e5232;
+}
+.p3{
+    color: #3c1db7;
+}
+.p4{
+    color: #b71c4b;
+}
+.p5{
+    color: #41470e;
+}
+.p6{
+    color: #47220d;
+}
+.p7{
+    color: #dd7cc5;
+}
+.ptotal{
+    border-style: solid;
+    border-radius: 0px 36px 0px 9px;
 }
