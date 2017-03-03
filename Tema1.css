@@ -1,0 +1,40 @@
+/*the navigation bar*/
+body{
+	margin: 0;
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+	overflow: hidden;
+	background-color: #333;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+li{
+	float:right;
+}
+li a {
+	display: block;
+	color: white;
+	padding: 16px;
+	text-decoration: none;
+}
+.main{
+	margin-top: 30px;
+	padding: 16px;
+	height: 1500px;
+}
+.video {
+   float: left;
+   margin: 10px;
+   padding: 10px;
+   border: 1px solid black;
+}   
+img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: -1;
+}

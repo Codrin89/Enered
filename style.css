@@ -7,12 +7,12 @@
 .container .row {
 	max-height:50px;
 	padding:16px;
-	background-color: blue;
+	background-color:#28C3D5 ;
 }
 .container .content {
 	border:1px solid #ddd;
 	padding:20px;
-	background-color:#efefef;
+	background-color:#ffffff;
 }
 .container .content .info-text {
 	color:#59595b;
