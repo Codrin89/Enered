@@ -1,0 +1,58 @@
+.container .row > div .img-responsive{ 
+	margin-top: 20px;
+	height: 200px;
+
+}
+
+.row p { position: absolute; 
+    top: 200px; 
+    left: 10; 
+    width: 100%;
+    font-weight: bold;
+    color:green;
+}
+/*.row-list .list{
+	color: green;
+}*/
+
+.container .btn-group .btn-link{
+	position: absolute;
+	margin-left: 130%;
+}
+
+.border-indent{
+	max-height: 50px;
+	padding: 16px;/* centrare in interior text*/
+	background-color: blue;
+}
+
+.border-indent #titlu{
+	text-decoration: none;   
+	color:#fff;
+	margin-left:16px;
+	font-weight:bold;
+	margin-left: 150px;
+}
+
+/*.container .btn-group {
+	border-style: : 30px;
+}*/
+
+.details{
+	width: 60%;
+	height: 150px;
+	float: left;
+	margin-top: -200px;
+}
+
+
+.row-list{
+	margin-top: 20px;
+
+}
+
+tr{
+	background-color: #c4f2c8;
+	opacity: 30px;
+
+}

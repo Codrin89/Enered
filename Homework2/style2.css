@@ -1,0 +1,66 @@
+.menu{
+   width: :100%;
+   text-align: center;
+   background: white;
+   position: sticky;
+}
+.menu .btn-default{
+	background: #1ba513;       /* ramane totusi cu un border fin */
+	border: 1px solid #1ba513;  /* de aceea ii voi adauga un border  pt a acoperi border anterior*/
+	color:white;
+	margin-right: 10px; /*spatiu intre butoane*/
+	margin: 10px;
+}
+
+body{background: #ddf9db;}
+
+.container{
+	background: white;
+	width: 80%;
+}
+
+.menu .btn-default:hover{ background: orange; }
+
+.container2{
+	width: 68%;
+	float: left; /*align */
+	border: 1px solid #1ba513;
+}
+.container .container2 > div .img-responsive{
+  margin-top: 40px;
+  height: 200px;
+ }
+ .container2 p{
+ 	position: absolute;
+ 	font-weight: bold;
+ 	color: #147025;
+ }
+.caption{
+	    width: 100%;
+	 	background: #ffc09e;
+	 	height: 25px;
+	 	padding-left: 10px;
+	 	color: white;
+	 	margin-top: 10px;
+	 	font-size: 20px;
+}
+
+.container3{
+	width: 30%;
+	float: right;
+	border: 1px solid #1ba513;
+
+}
+.container3 .titlu{
+	color:#147025;
+	font-weight: bold;
+	font-size: 25px;
+}
+.container3 p{
+	margin-left: 10px;
+	font-size: 15px;
+}
+
+.container3 .section2{
+	margin-top: 30px;
+}
