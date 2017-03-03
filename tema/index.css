@@ -1,0 +1,180 @@
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: transparent;
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+.header {
+    background: #3879cc;
+    height: 67px;
+}
+.container {
+	display: block;
+    width: 1500px;
+    height: 50px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: left;
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body {
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    display: block;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
+
+
+.menu {
+    background-image: -webkit-linear-gradient(top, #dbdbdb 0%, #e2e2e2 100%);
+    background-image: -o-linear-gradient(top, #dbdbdb 0%, #e2e2e2 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#dbdbdb), to(#e2e2e2));
+    background-image: linear-gradient(to bottom, #dbdbdb 0%, #e2e2e2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdbdbdb', endColorstr='#ffe2e2e2', GradientType=0);
+    background-repeat: repeat-x;
+    -webkit-box-shadow: inset 0 3px 9px rgba(0,0,0,0.075);
+    box-shadow: inset 0 3px 9px rgba(0,0,0,0.075);
+    padding-top: 15px;
+    padding-bottom: 15px;    
+}
+.row {
+    margin-right: 15px;
+    margin-left: 15px;
+    background: transparent;
+}
+a {
+    text-decoration: none;
+    background-color: transparent;
+    color: #555;
+}
+.col-sm-8 {
+    width: 66.66666667%;
+	background-color: transparent;
+	float: left;
+	position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.col-sm-4 {
+    width: 33.33333333%;
+	background-color: transparent;
+    float: right;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px
+}
+.feature>.row>div:first-child {
+    padding-left: 15px;
+}
+.feature>.row>div:last-child {
+    padding-right: 15px;
+}
+.feature>.row>div {
+    padding: 0 10px;
+}
+.feature>.row>div .featurebox {
+    cursor: pointer;
+    box-shadow: 1px 1px 4px #cccccc;
+}
+.feature>.row>div .featurebox .featurebox-image {
+    height: 33%;
+    width: 33%;
+    background-size: auto 100% !important;
+    position: relative;
+}
+.feature>.row>div .featurebox .featurebox-caption strong {
+    display: block;
+    font-family: "Roboto", sans-serif;
+    color: #c4ef96;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+b, strong {
+    font-weight: 700;
+}
+.blog-post {
+    border-bottom: 1px solid #e4e4e4;
+    margin: 20px 0;
+}
+.blog-post h2 {
+    margin: 0 0 20px 0;
+    padding: 0 0 0 10px;
+    font-size: 28px;
+    line-height: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    letter-spacing: -1px;
+    border-left: 4px solid #d6d6d6;
+}
+.blog-post p {
+    color: #4e4e4e;
+}
+p {
+    margin: 0 0 10px;
+}
+.feature h4, .side-nav h4 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    margin: 0 0 8px 0;
+}
+.spoiler {
+    margin-bottom: 20px;
+    font-size: 12px;
+    border-bottom: 1px solid #e7e7e7;
+    padding-bottom: 10px;
+}
+ul.new-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+ul.new-list li.active a {
+    background: #e4f6d4;
+    border-bottom: 1px solid #cedec0;
+}
+ul.new-list li a {
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+    color: #000;
+    border-bottom: 1px solid #cdcdcd;
+}
+ul.new-list li.active a span, ul.new-list li.active a em {
+    color: #98ad85;
+}
+.pull-right {
+    float: right!important;
+}
+ul.new-list li.active a .fa-star {
+    color: #4c7923;
+    font-size: 11px;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}

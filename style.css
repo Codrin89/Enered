@@ -1,6 +1,6 @@
 /* Css1 pentru Enered */
 .container {
-	width:100%;
+	width:95%;
 	height:100%;
 	padding:20px 30px;
 }
@@ -11,7 +11,7 @@
 }
 .container .content {
 	border:1px solid #ddd;
-	padding:20px;
+	padding:5px;
 	background-color:#efefef;
 }
 .container .content .info-text {

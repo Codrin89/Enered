@@ -1,0 +1,36 @@
+
+.content form {
+	padding: 5px;
+
+}
+.container .row2 {
+	max-height:50px;
+	padding: 40px;
+	background-image: url("grey.jpg");
+
+}
+.container .table {
+    -webkit-columns: 100px 2; /* Chrome, Safari, Opera */
+    -webkit-column-gap: 0;
+    -webkit-column-rule: 5px solid lightblue; 
+    -webkit-column-width: 100px;
+
+
+}	
+.container .collumn1 {
+	background-color: grey;
+    text-align: center;
+    column-count: 1;
+    max-height: 100px;
+    height: 100px;
+
+
+ }
+.container .collumn2 {
+	background-color: #bec1c6;
+    text-align: center;
+    column-count: 2;
+    max-height: 100px;
+    height: 100px;
+
+ }
