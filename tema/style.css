@@ -133,6 +133,9 @@ body{
     color: #dd7cc5;
 }
 .ptotal{
-    border-style: solid;
+    
     border-radius: 0px 36px 0px 9px;
+}
+a {
+    text-decoration: none !important;
 }
