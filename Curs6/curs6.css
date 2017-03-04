@@ -1,0 +1,85 @@
+.header-bar {
+	background-color: #3879cc
+}
+.widthContainer {
+	width: 970px;
+	margin:auto;
+}
+.header-bar img{
+	width: 225px;
+	height: 50px;
+	margin-top: 10px;
+}
+.widthContainer .social-media{
+	color: #a5cdff;
+	float: right;
+	font-size: 30px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.widthContainer .social-media:hover{
+	color: #fff;
+}
+.navbar{
+	border: 1px solid #b1b5bc;
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.15), 0 1px 5px rgba(0,0,0,0.75);
+}
+.navbar ul{
+	margin-bottom: 0;
+}
+.navbar ul li{
+	display: inline-block;
+	height: 50px;
+	padding: 15px 10px;
+}
+.navbar ul li a{
+	color:#444;
+	text-decoration: none;
+}
+.navbar ul li.last-child{
+	float: right;
+	margin-right: 30px;
+}
+.navbar ul li:hover{
+	background-color: #f4bc8b;
+}
+.widthContainer .content{
+	width: 75%;
+	float: left;
+	min-height: 100px;
+}
+.widthContainer .sidebar{
+	background-color: #e4f6d4;
+	width: 25%;
+	float: left;
+	min-height: 100px;
+}
+.widthContainer .sidebar .item-renderer{
+	border-bottom: 1px solid #777;                   
+	padding: 8px;
+	height: 60px;
+}
+.widthContainer .sidebar .title{
+	color: #222;
+	font-size: 20px;
+	font-weight: 700;
+	margin:0;
+}
+.widthContainer .sidebar .calendar-date{
+	float: right;
+	position: relative;
+	top:-10px;
+	right: 12px;
+	color: #888;
+}
+.widthContainer .content .image-news{
+	width: 30%;
+	margin-left:5%;
+	float: left;
+	background: url('http://img.mangastream.com/cdn/feature/asdfangnhg.png');
+	height:150px;
+	background-size: cover;
+}
+.widthContainer .content .image-news:first-child{
+	margin-left: 0;
+}
