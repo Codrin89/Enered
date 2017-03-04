@@ -1,25 +1,25 @@
-.container{
+.container {
 	border:3px solid #ddd;
 }
-.container .row > div > div{
+.container .row > div > div {
 	text-align: center;
 }
 .container .row > div {
 		height:300px;
 }
-.container .row .red{
+.container .row .red {
 	background-color:red;
 }
-.container .row .blue{
+.container .row .blue {
 	background-color:blue;
 }
-.container .row .green{
+.container .row .green {
 	background-color:green;
 }
-.container .row > div .img-responsive{
+.container .row > div .img-responsive {
 	height:300px;
 }
-.container .row .btn-warning{
+.container .row .btn-warning {
 	background:purple;
 	border: 1px solid white;
 }
@@ -28,6 +28,4 @@
 }
 .container .row.form > div {
 	height:100px;
-	text-align: center;
-
 }
