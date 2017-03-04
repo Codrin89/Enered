@@ -1,0 +1,106 @@
+body{
+	background-color:#e6ffe6;
+	min-width: 1300px;
+}
+
+.btn0 {
+	background-color:orange;
+	width: 100px;
+    height: 35px;
+    border:0;
+    border-radius:10px 10px 0px 0px;
+    font-size:10px;
+    color:white;
+}
+.btn1 {
+	background-color: green;
+	width: 100px;
+    height: 35px;
+    border:0;
+    border-radius:10px 10px 0px 0px;
+    font-size:10px;
+    color:white;
+}
+.poza{
+	
+	width:100%;
+	height:20px;
+}
+.pozamare{
+	width:100%;
+	height:200px;
+}
+.poze{
+	width:150px;
+	height:100px;
+	margin: 7px;
+}
+.container2{
+	background-color: white;
+	border-style:solid;
+	border-color:grey;
+	height:700px;
+	width:60%;
+	float:left;
+
+}
+.container1{
+	background-color: white;
+	display:inline-block;
+	border-style:solid;
+	border-color:grey;
+	height:700px;
+	width:30%;
+	
+}
+.container{
+	margin-left:100px;
+}
+.menu{
+	margin-left: 100px;
+}
+.container1 p{
+	font-family: bold;
+	color: orange;
+	font-size: 30px;
+}
+.container2 p{
+	font-family: cursive;
+	color: red;
+	font-size:25px;
+}
+.pozecontainer{
+	display:inline-block;
+}
+.btn{
+	background-color: pink;
+	border-radius: 10px;
+	width:119px;
+	height:22px;
+	margin-left: 20px;
+	color:red;
+}
+.giff {
+     position:absolute;
+	  left:690px;
+	  top:105px;
+	  width:100px;
+	  height:100px;
+}
+.gifff{
+      position:absolute;
+	  left:630px;
+	  top:105px;
+	  width:100px;
+	  height:100px;
+}
+.text{
+	font-size: 10px;
+}
+.text1{
+	position: absolute;
+	color :white;
+	left: 500px;
+    top: 46px;
+}
+
