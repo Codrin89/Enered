@@ -57,16 +57,48 @@
 }
 .widthContainer .sidebar .item-renderer{
 	border-bottom:1px solid #777;
+	padding:8px;
+	height:60px;
 }
 .widthContainer .sidebar .title{
 	color:#222;
 	font-size:20px;
 	font-weight:700;
+	margin:0;
 }
 .widthContainer .sidebar .calendar-date{
 	float:right;
 	position:relative;
-	top:-20px;
+	top:-10px;
 	right:12px;
 	color:#888;
+}
+.widthContainer .content .image-news{
+	width:30%;
+	position:relative;
+	margin-left:5%;
+	float:left;
+	background:url('http://img.mangastream.com/cdn/feature/asdfangnhg.png');
+	height:150px;
+	background-size:cover;
+}
+.widthContainer .content .image-news:first-child{
+	margin-left:0;
+}
+.widthContainer .content .image-news .info-text{
+	position:absolute;
+	bottom:0;
+	height:30px;
+	background-color:rgba(30,30,30,0.6);
+	width:100%;
+}
+.widthContainer .content .image-news .info-text .title{
+	font-size:12px;
+	margin:0;
+	color:#fff;
+}
+.widthContainer .content .image-news .info-text{
+	font-size:10px;
+	margin:0;
+	color:#fff;
 }
