@@ -1,0 +1,78 @@
+
+
+
+.navbar {
+    color: white;
+    margin: 0;
+	background-color: #000;
+    position: relative;
+    width: 100%;
+    min-width: 960px;
+    height: 48px;
+}
+
+.widthContainer {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.navbar ul li {
+	display: inline-block;
+    float: left;
+    margin: 0;
+}
+.navbar ul li img {
+    display: block;
+    height: 48px;
+    width: 64px;
+    background-size: 40px 40px;
+    text-indent: -9999px;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-right: 1px solid #333;
+    display: block;
+    float: left;
+}
+.widthContainer .content {
+	float: left;
+    width: 600px;
+}
+.widthContainer .content .image h4 {
+	font-size: 20px;
+    color: #000;
+    font-weight: bold;
+ }
+.widthContainer .content .image img {
+	width: 500px;
+    position: relative;
+    margin-bottom: 30px;
+}
+.widthContainer .content .image {
+	min-height: 100px;
+	margin-bottom: 30px;
+    border: 0;
+    padding: 0;
+    border-bottom: 1px solid #eee;
+}
+.widthContainer .sidebar {
+    float: right;
+    padding: 0;
+    width: 300px;
+    position: relative;
+    margin-top: 20px;
+}
+.widthContainer .sidebar .image {
+    margin-bottom: 16px;
+}
+.widthContainer .sidebar .image img {
+    display: block;
+    overflow: hidden;
+    width: 300px;
+    height: 105px;
+    margin-bottom: 4px;
+    background-color: #f4f4f4;
+}
+.widthContainer .sidebar .image h4 {
+    font-size: 14px;
+    word-wrap: break-word;
+    font-weight: bold;
+}
