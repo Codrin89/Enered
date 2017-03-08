@@ -1,0 +1,58 @@
+
+.header{
+	background-color: #000;
+	color: #fff;
+}
+.header .logo img{
+	width: 40px;
+	height: 40px;
+}
+.header .navbar {
+	min-height: 40px;
+	margin: 0;
+	margin-left: 10px;
+}
+.header .navbar ul {
+	margin:0;
+	padding:0;
+}
+.header .navbar ul li{
+	display: inline-block;
+	height: 40px;
+	float: left;
+	font-weight: 700;
+	padding: 10px 16px 0 16px;
+}
+.header .navbar ul li.border-item{
+	padding: 10px 16px 0 16px;
+	border-right: 1px solid #333;
+}
+.header .navbar ul li a {
+	text-decoration: none;
+	color: grey;
+	text-transform: capitalize;
+	font-weight: 300;
+}
+.header .navbar ul li.border-item a {
+	color: #fff;
+}
+.header .navbar ul li.border-item:first-child{
+	border-left: 1px solid #333;
+}
+.header .logo{
+	width: 0;
+}
+.header .navbar ul li:hover{
+	background: #333333;
+}
+.signup{
+    float: right;
+    margin-top: 8px;
+    color: white;
+    background-color: #33adff;
+    border: 0px;
+    border-radius: 5px;
+    width: 84px;
+    height: 27px;
+    font-weight: 700;
+}
