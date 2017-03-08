@@ -1,0 +1,67 @@
+.header{
+	background-color: #000;
+	color: #fff;
+
+}
+.header .logo img {
+	width: 40px;
+	height: 40px;
+}
+.header .navbar {
+	min-height: 40px;
+	margin: 0;
+	margin-left: 12px;
+}
+.header .navbar ul {
+	margin: 0;
+	padding: 0;
+}
+.header .navbar ul li {
+	display: inline-block;
+	height: 40px;
+	padding: 11px 16px 0 16px;
+	float: left;
+
+}
+.header .navbar ul li a{
+	text-decoration: none;
+	text-transform: capitalize;
+	font-weight: 400;
+	float: left;
+	color: #aaa;
+	display: block;
+
+	
+
+}
+.header .logo {
+	width: 0;
+	margin-right: 0;
+}
+.header .navbar ul li.border-item {
+	padding: 11px 16px 0 16px;
+	border-right: 1px solid #333;
+	float: left;
+}
+.header .navbar ul li.border-item:first-child{
+	border-left: 1px solid #333;
+
+
+}
+.header .navbar ul li:hover {
+	background: #333;
+	float: left;
+}
+.header .navbar ul li.border-item a {
+	color: #fff;
+	font-weight: 700;
+}
+.log-sign.col-xs-3 {
+	float: right;
+	padding: 4px;
+}
+.glyphicon{
+	position: relative;
+	top: 12px;
+	color: #bbb;
+}
