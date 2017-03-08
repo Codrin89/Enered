@@ -1,0 +1,52 @@
+.widthContainer {
+	width: 1170px;
+	margin:auto;
+}
+.header-bar{
+background-color:#000;
+
+}
+
+.header-bar img{
+	width: 110px;
+	height: 35px;
+  left:0px;
+  position:relative;
+}
+.navbar ul {
+	margin-bottom: 0;
+}
+
+.navbar ul li {
+	display: inline;
+	height: 50px;
+	padding: 15px 10px;
+}
+.navbar ul li a{
+	color: #444;
+	text-decoration: none;
+  display:inherit;
+
+}
+.navbar ul li:hover {
+	background-color: #f1f1f1;
+
+}
+p{
+  position: relative;
+    left: 100px;
+    top: 0px;
+    text-align:left;
+}
+img {
+    width: 50%;
+    height: 500px;
+    opacity: 2.0;
+    position:relative;
+}
+.sidebar {
+  float: right;
+ background: #5652dd; /* Цвет фона */
+ right: 800px; /* Сдвиг вправо */
+ width: 400px; /* Ширина колонки */
+}
