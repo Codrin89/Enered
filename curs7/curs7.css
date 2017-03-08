@@ -1,0 +1,55 @@
+.header {
+	background-color: #000;
+	color:#fff;
+}
+.header .logo img{
+	width:40px;
+	height:40px;
+
+}
+.header .navbar{
+	min-height: 40px;
+	margin:0px;
+	margin-left: 12px;
+}
+.header .navbar ul{
+	margin:0;
+	padding: 0;/*centreaza*/
+}
+.header .navbar ul li{
+	display:inline-block;
+	height: 40px;
+	float:left;
+}
+.header .navbar ul li.border-item{
+padding : 11px 16px 0 16px;
+border-right: 1px solid #333;/*liniile de la menu*/
+}
+.header .navbar ul li.border-item:first-child{
+	border-left:1px solid #333;
+}
+.header .navbar ul li a{
+color:#fff;/*#fff*/
+text-transform: capitalize;/*1 litera la toate mari*/
+text-decoration: none;/*fara linie de desupt*/
+font-weight: 700;/*(bold)*/
+}
+.header .navbar ul li a{
+	color:#aaa;/*le face pe toate cu gri*/
+}
+.header .navbar ul li.border-item a{
+	color: #fff;/*le selecteaza doar pe primele de baza*/
+	font-weight: 5px;
+}
+.header .logo{
+	width:0px;
+}
+.header .navbar ul li:hover {
+	background: #333;
+}
+.header .navbar ul li{
+padding : 11px 16px 0 16px;
+}
+.button{
+	float: right;
+}
