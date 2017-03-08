@@ -1,0 +1,95 @@
+.topnav li{
+	display:inline;
+	padding:15px 10px;
+
+}
+.topnav {
+	background-color: black;
+	min-width: 960px;
+
+}
+
+.topnav a  {
+    
+    display: inline;
+    padding:5px 10px;
+    text-decoration: none;
+    }
+
+  a hover{
+	color:white;
+	}
+.widthContainer {
+   margin-left: 100px;
+   margin-right: 40px;
+ }
+
+a{
+	color: white;
+	text-decoration:none;
+
+}
+.widthContainer .content .image img {
+ 	
+    position: relative;
+    margin-bottom: 20px;
+     width: 300px;
+     height:300px;
+
+}
+
+.btn{
+ 	float:right;
+ 	position:relative;
+    bottom:22px;
+}
+.topnav .btn{
+	padding:5px 10px;
+}
+h3{
+	margin:20px;
+	color:black;
+	font-size:30px;
+	font-style:italic;
+	font-weight:bold;
+	margin-left:0;
+}
+
+img{
+	margin left:40px;
+}
+
+.widthContainer .content{
+	width:50%;
+	float:left;
+	min-height:100px;
+	margin-left:150px;
+
+}
+
+.widthContainer .sidebar {
+   float: right;
+    padding: 0;
+    margin-right:200px;
+    position: relative;
+ 
+}
+.widthContainer .sidebar .image {
+     margin-bottom: 10px;
+
+
+ }
+ .widthContainer .sidebar .image img {
+     display: block;
+     overflow: hidden;
+     
+     margin-bottom: 100px;
+      width:250px;
+     height:250px;
+     
+ }
+ .widthContainer .sidebar .image h3 {
+     font-size: 30px;
+     font-weight: bold;
+ }
+
