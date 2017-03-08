@@ -1,0 +1,79 @@
+
+
+.header {
+	background-color: #000;
+	width: 100%;
+    min-width: 960px;
+    position: fixed;
+
+}
+.header .logo {
+    width: 0;
+}
+.header .logo img {
+	height: 40px;
+    width: 40px;
+
+}
+.header .navbar {
+	min-height: 40px;
+	margin: 0;
+	margin-left: 12px;
+
+}
+.header .navbar ul {
+	margin: 0;
+	padding: 0;
+
+}
+.header .navbar ul li {
+	display: inline-block;
+	height: 40px;
+	float: left;
+	padding: 11px 16px 0 16px;
+}
+.header .navbar ul li.border-item {
+    padding: 11px 16px 0 16px;
+    border-right: 1px solid #333;
+    font-weight: 700;
+    color: #fff;
+
+}
+.header .navbar ul li.border-item a {
+	color: #fff;
+}
+.header .navbar ul li.border-item:first-child {
+	background-color: #333;
+	border-left: 1px solid #333;
+}
+.header .navbar ul li.border-item:hover {
+	background-color: #333;
+}
+.header .navbar ul li a {
+	text-decoration: none;
+	color: #aaa;
+	text-transform: capitalize;
+	text-align: center;
+}
+.header .navbar ul li a:hover {
+	color: #fff;
+}
+.header .log-sign {
+    padding: 9px 10px;
+    float: right;
+}
+.header .log-sign button {
+    color: #fff;
+    display: inline-block;
+    height: 30px;
+    padding: 0 16px;
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 10px;
+    background-color: #09f;
+    border-color: transparent;
+    float: right;
+
+}
+
