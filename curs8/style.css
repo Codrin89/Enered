@@ -1,0 +1,125 @@
+* {
+	margin:0;
+}
+.header-bar {
+	height: 67px;
+	background-color: green;
+}
+ .header-bar .img {
+	width: 225px;
+	height: 50px;
+	background-color: #4864a2;
+	display: inline-block;
+	margin-left: 90px;
+	margin-top: 8px;
+}
+.social-bar {
+	display: inline-block;
+	float: right;
+	margin-right: 90px;
+	margin-top: 18px;
+
+}
+.social-bar i {
+	font-size: 32px;
+	color: white;
+	margin-left: 5px;
+}
+.navbar{
+	margin:0 90px;
+	border:1px solid #e7e7e7;
+	height: 50px;
+	margin-bottom: 20px;
+}
+.navbar ul li {
+	display: inline-block;
+	height: 20px;
+	padding: 15px;
+	font-size: 14px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #555;
+}
+.header-bar .social-bar i:hover {
+	color: red;
+}
+.navbar ul li.settings{
+	float: right;
+	margin-right: 15px;
+}
+.navbar ul {
+	margin-left: 15px;
+	padding-left: 0;
+}
+.navbar ul li:hover {
+	background-color: #f1f1f1;
+}
+.main-content {
+	border:1px solid red;
+	margin: 0 90px;
+}
+.content {
+	width: 70%;
+	height: 1px;
+	float: left;
+}
+.sidebar {
+	width: 30%;
+	float: left;
+}
+.sidebar .upcoming h2 {
+	margin-bottom: 10px;
+	font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+.upcoming {
+	border-bottom: 1px solid #555;
+	padding: 0px;
+}
+.sidebar .upcoming p {
+	margin-bottom: 10px;
+	font-size: 12px;
+	color: #333;
+}
+.sidebar .upcoming p a {
+	color: red;
+}
+.sidebar .upcoming p a:hover {
+	text-decoration: underline;
+}
+.sidebar .items {
+	margin-top: 20px;
+
+}
+.sidebar .items h2 {
+    margin-bottom: 10px;
+	font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+.sidebar .items .item {
+	background-color: #d8f2c2;
+}
+.sidebar .items .item:hover {
+	background-color: red;
+}
+.sidebar .items .item h4 {
+	padding: 3px 7px;
+}
+.sidebar .items .item label {
+	float: right;
+	margin-top: 11px;
+	margin-right: 7px;
+}
+.sidebar .items .item h4 {
+	padding: 3px 7px;
+}
+.sidebar .items .item p {
+	margin-left: 7px;
+	font-size: 12px;
+	padding-bottom: 4px;
+	color: #98ad85;
+}
+.imgs {
+	float:left;
+}
