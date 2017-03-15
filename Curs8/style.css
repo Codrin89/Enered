@@ -1,0 +1,165 @@
+*{
+	margin:0;
+}
+.header-bar{
+	height: 67px;
+	background: blue;
+}
+
+.header-bar .img{
+	width:225px;
+	height:50px;
+	display: inline-block;
+	background-color:black;
+	margin-left: 90px;
+	margin-top: 7px;
+}
+
+.social-bar{
+	display: inline-block;
+	float: right;
+	margin-right: 90px;
+	margin-top:17px;
+}
+
+.social-bar i{
+	font-size: 32px;
+	color: #a5cdff;
+	margin-left: 5px;
+}
+
+.navbar{
+	margin: 0 90px;
+	border:1px solid #e7e7e7;
+	height: 50px;
+	margin-bottom: 20px;
+}
+
+.navbar ul li{
+	display: inline-block;
+	height: 20px;
+	padding: 15px;
+	font-size:14px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	color:#555;
+}
+
+.header-bar .social-bar i:hover{
+	color: white;
+}
+
+.navbar ul li.settings{
+	float: right;
+	margin-right: 15px;
+}
+
+.navbar ul{
+	margin-left: 15px;
+	padding-left: 0;
+}
+.navbar ul li:hover{
+	background-color: #f1f1f1;
+}
+
+.main-content{
+	border: 1px solid #e3e3e3;
+	margin: 0 90px;
+}
+
+.content{
+	width: 70%;
+	min-height: 10px;
+	float: left;
+}
+
+.sidebar{
+	width: 30%;
+	min-height: 10px;
+	float: left;
+}
+
+.sidebar .upcomming h2{
+	margin-bottom: 10px;
+	font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+
+}
+
+.upcomming{
+	border-bottom: 1px solid #e3e3e3;
+
+}
+
+.upcomming p{
+	margin-bottom: 10px;
+	color: #333;
+	font-size: 12px;
+}
+.upcomming p a{
+	color: red;
+}
+.upcomming p a:hover{
+	text-decoration: underline;
+}
+
+.sidebar .items{
+	margin-top: 20px;
+}
+
+.sidebar .items h2{
+	margin-bottom: 10px;
+	font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.sidebar .items .item{
+	background-color: #e4f6d4;
+	padding: 2px 0;
+	border-bottom: 1px solid #cedec0;
+}
+.sidebar .items .item:hover{  /* cand trec cu mouse*/
+	background:#d8f2c2;
+}
+
+.sidebar .items .item h4{
+	padding:3px 7px;
+}
+.sidebar .items .item label{
+	float: right;
+	margin-top: 12px;
+	margin-right: 7px;
+	color: #98ad85;
+}
+
+.sidebar .items .item p{
+	margin-left: 7px;
+	font-size: 12px;
+	padding-bottom: 3px;  /* margin */
+	color: #98ad85;
+}
+.sidebar .items .item h4 i{
+	color: #4c7923;
+	font-size: 11px;
+}
+
+.main-content .content img{
+	margin-left: 20px;
+}
+.main-content .content img:first-child{
+	margin-left: 0px;
+}
+.content .another-img{
+	float: left;
+	width: 250px;
+	margin-left: 20px;
+	height: 40px;
+	background-color: rgba(0,0,0,0.6);
+	margin-left:10px;
+	z-index: 9999;
+	position: relative;
+}
+.content .another-img .first{
+	margin-left: 0;
+}
