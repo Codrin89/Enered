@@ -1,0 +1,151 @@
+*{
+	margin: 0;
+}
+.header-bar {
+	height: 67px;
+	background: #3879cc;
+}
+.header-bar .img {
+	width: 225px;
+    height: 50px;
+    display: inline-block;
+	background-color: black;
+	margin-left: 90px;
+	margin-top: 8px;
+
+}
+.header-bar .social-bar{
+	display: inline-block;
+
+
+}
+.social-bar i {
+	font-size: 32px;
+	color: #a5cdff;
+	margin-left: 3px;
+	
+}
+.social-bar {
+	display: inline-block;
+	float: right;
+	margin-right: 90px;
+	margin-top: 17px;
+	float: right;
+
+}
+.navbar{
+	margin: 0 90px;
+	border: 1px solid #e7e7e7;
+	height: 50px;
+	margin-bottom: 20px;
+
+}
+.navbar ul li {
+	display: inline-block;
+	height: 50px;
+	padding: 15px;
+	height: 20px;
+	font-size: 14px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: lighter;
+	color: #555;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.25);
+}
+.header-bar .social-bar i:hover{
+	color:white;
+}
+.navbar ul li.settings{
+	float: right;
+	margin-right: 15px;
+}
+.navbar ul li:hover{
+	background: #f1f1f1;
+}
+.main-content {
+	border:1px solid #e3e3e3;
+	margin:0 90px;
+}
+.content {
+	width: 70%;
+	float: left;
+	min-height: 10px;
+}
+.sidebar {
+	width: 30%;
+	float: left;
+}
+.sidebar .upcoming h2 {
+	margin-bottom: 10px;
+	font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+
+}
+.upcoming {
+	border-bottom: 1px solid #e3e3e3;
+}	
+.sidebar .upcoming p {
+	margin-bottom: 20px;
+	color: #333;
+	font-size: 14px;
+}
+.sidebar .upcoming p a {
+	color: red;
+
+}
+.sidebar .upcoming p a:hover{
+	text-decoration: underline;
+}
+ .sidebar .items {
+	margin-top: 20px;
+}
+.sidebar .items h2 {
+	margin-bottom: 10px;
+	font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+
+}
+.sidebar .items .item {
+	background-color: #e4f6d4;
+	padding: 2px 0;
+	border-bottom: 1px solid #cedec0;
+
+}
+.sidebar .items .item h4 {
+	padding: 4px 7px;
+}
+.sidebar .items .item label {
+	float: right;
+	margin-top: 12px;
+	margin-right: 7px;
+	color: #888;
+	padding-bottom: 4px;
+	
+}
+.sidebar .items .item p {
+	margin-left: 7px;
+	font-size: 13px;
+	padding-bottom: 4px;
+	color:#888;
+}
+.sidebar .items .item h4 i {
+	color: #4c7923;
+    font-size: 11px;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+.sidebar .items .item:hover{
+	border-bottom: #cedec0;
+}
+.content img:first-child {
+	margin-left: 0;
+	}
+.content img {
+	margin-left: 20px;
+	float: left;
+	width: 250px;
+}
+.content .image1:first-child{
+	margin-left: 0;
+}
