@@ -1,0 +1,123 @@
+*{
+	margin: 0;
+}
+body{
+	background-color: #fafafa;
+	font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.navbar{
+	height: 44px;
+	background-color: #323232;
+	padding: 0 20px;
+}
+
+.navbar ul li{
+	display: inline-block;
+	color: white;
+	width: 9%;
+	margin-top: 14px;
+}
+.navbar ul{  /* centrat stanga dreapta*/
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.navbar ul li:hover{
+	color:#b6b6b6;
+}
+
+.device-navbar{
+	background-color: rgba(242,242,242,0.7);
+	padding: 20px 0;
+}
+
+.device-navbar ul{
+	margin:0 auto;
+	width: 700px;
+}
+.device-navbar ul li{
+	display: inline-block;
+	width: 12%;
+	text-align: center;
+
+}
+
+.device-navbar ul li a{
+	display: block;
+	font-size: 12px;
+}
+
+.device-navbar ul li:hover a{
+	color: #0070c9;
+}
+
+.container{
+	text-align: center;
+	height:860px;    /* 577 =*/ 
+	background: url("http://images.apple.com/v/ipad/home/y/images/home/ipadpro_large_2x.jpg");
+	background-repeat: no-repeat;
+	background-size: 1222px 577px;
+	background-position: center 300px; 
+}
+
+
+.container h2{
+	font-size: 56px;
+	margin-top: 60px;
+
+}
+.container h3{
+	    font-size: 40px;
+	    font-weight: 300;
+}
+.container a{
+	margin-top: 30px;
+	text-decoration: none;
+	color: #0070c9;
+	margin: 0 10px;
+	font-size: 22px;
+}
+
+.container h3:last-of-type{
+	margin-bottom: 30px;
+}
+.container a:hover{
+	text-decoration: underline;
+}
+.container-left {
+	padding-left: 350px;
+
+}
+
+.container-left h2{
+	font-size: 45px;
+	margin-top: 60px;
+	color: #333;
+	font-weight: 500; /* subtiaza textul*/
+
+}
+.container-left h3{
+	    font-size: 40px;
+	    font-weight: 300;
+	    color: #333;
+}
+.container-left a{
+	margin-top: 30px;
+	text-decoration: none;
+	color: #0070c9;
+	margin: 0 10px;
+	font-size: 22px;
+}
+
+.container-left-text{
+	display: inline-block;
+	text-align: center;
+
+}
+.apple-pencil{
+	background: url("http://images.apple.com/v/ipad/home/y/images/home/pencil_large_2x.jpg");
+	background-repeat: no-repeat;
+	background-size: 1413px 567px;
+	background-position: 500px; 
+	height: 580px;
+}
