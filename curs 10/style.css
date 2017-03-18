@@ -1,0 +1,164 @@
+*{
+	margin:0;
+}
+body{
+	background-color:#fafafa;
+	font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif
+}
+.navbar ul li{
+	display:inline-block;
+	color:white;
+	width:9%;
+	margin-top:13px;
+}
+.navbar{
+	background-color:#323232;
+	height:44px;
+	padding:0 20px;
+}
+.navbar ul{
+	margin:0 auto;
+	width:1000px;
+}
+.navbar ul li:hover{
+	color:#b6b6b6;
+}
+.device-navbar ul li{
+	display:inline-block;
+	width:12%;
+	text-align:center;
+}
+
+.device-navbar ul{
+	margin:0 auto;
+	width:700px;
+}
+.device-navbar ul li a{
+	display:block;
+	font-size:12px;
+}
+.device-navbar{
+	background:#f4f4f4;
+	padding:20px 0;
+}
+.device-navbar ul li:hover a{
+	color:#0070c9;
+}
+.container{
+	text-align:center;
+	height:860px;
+	background:url('http://images.apple.com/v/ipad/home/y/images/home/ipadpro_large.jpg');
+	background-repeat:no-repeat;
+	background-size:1222px 577px;
+	background-position:center 300px;
+}
+.container h2{
+	font-size:56px;
+	margin-top:60px;
+	color:#333;
+	font-weight:500;
+}
+.container h3{
+	font-size:40px;
+	font-weight:300;
+	color:#333;
+}
+.container h3:last-of-type{
+	margin-bottom:30px;
+}
+.container a{
+	color:#0070c9;
+	text-decoration:none;
+	margin:0 10px;
+	font-size:22px;
+}
+.container a:hover{
+	text-decoration:underline;
+}
+.container-left{
+	padding-left:400px;
+}
+.container-left h2{
+	font-size:56px;
+	margin-top:60px;
+	color:#333;
+	font-weight:500;
+}
+.container-left h3{
+	font-size:40px;
+	font-weight:300;
+	color:#333;
+}
+.container-left a{
+	color:#0070c9;
+	text-decoration:none;
+	margin:0 10px;
+	font-size:22px;
+}
+.container-left-text{
+	display:inline-block;
+	text-align:center;
+}
+.apple-pencil{
+	background:url('http://images.apple.com/v/ipad/home/y/images/home/pencil_large.jpg');
+	background-repeat:no-repeat;
+	background-size:1413px 567px;
+	height:580px;
+	background-position:500px;
+}
+}
+.container-right{
+	padding-left:600px;
+}
+.container-right h2{
+	font-size:56px;
+	margin-top:60px;
+	color:#333;
+	font-weight:500;
+}
+.container-right h3{
+	font-size:40px;
+	font-weight:300;
+	color:#333;
+}
+.container-right a{
+	color:#0070c9;
+	text-decoration:none;
+	margin:0 10px;
+	font-size:22px;
+}
+.container-right-text{
+	display:inline-block;
+	text-align:center;
+}
+.smart-keyboard{
+	background:url('http://images.apple.com/v/ipad/home/y/images/home/keyboard_large.png');
+	background-repeat:no-repeat;
+	background-size:988px 846px;
+	height:850px;
+	background-position:-155px 0;
+}
+.container-socond-right{
+	height:566px;
+	padding-left:50%;
+}
+.container-second-right-text{
+	text-align:center;
+}
+.product{
+	background:url('http://images.apple.com/v/ipad/home/y/images/home/product_red/family_ipad_red_large.png');
+	background-repeat:no-repeat;
+	background-size:715px 1005px;
+}
+.container-second-right h2{
+	color:#ab1821;
+}
+.container-second-right a{
+	color:#0070c9;
+	text-decoration:none;
+	margin:0 10px;
+	font-size:17px;
+}
+.container-second-righta:hover{
+	text-decoration:underline;
+}
