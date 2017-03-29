@@ -1,0 +1,32 @@
+.red{
+	background:red;
+}
+.blue{
+	background:blue;
+}
+.green{
+	background:green;
+}
+.background-item{
+	width:400px;
+	height:400px;
+}
+.carousel{
+	width:400px;
+	margin:0 auto;
+}
+a{
+	position:relative;
+	top:-230px;
+	font-size:30px;
+	color:#fff;
+}
+.carousel-control-next{
+	float:right;
+}
+.btn-success{
+	float:right;
+}
+.blueBtn{
+	color:blue;
+}
