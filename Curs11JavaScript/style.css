@@ -1,0 +1,48 @@
+.red{
+
+	background-color: red;
+}
+.blue {
+	
+	background-color: blue;
+}
+.green{
+	
+	background-color: green;
+}
+
+.background-item {
+	height: 400px;
+	width: 400px;
+}
+.carousel {
+	width: 400px;
+	margin:0 auto;
+}
+.carousel-control-prev {
+    float: left;
+    position: relative;
+    top: -70px;
+    right: -12px;
+    color: white;
+}
+.carousel-control-next {
+	float:right;
+	float: left;
+    position: relative;
+    top: -70px;
+    left: 361px;
+    color: white;
+}
+p {
+	text-align: center;
+	padding: 138px;
+	font-size: 33px;
+	color:white;
+}
+.btn-success {
+	 margin-left: 253px;
+}
+.blueBtn{
+	color: blue;
+}
