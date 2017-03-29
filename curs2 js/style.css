@@ -1,0 +1,50 @@
+.background-item {
+	width: 400%;
+	height: 400px;
+}
+.red {
+ background-color: red;
+}
+.blue {
+background-color: blue;
+}
+.green {
+background-color: green;
+}
+.carousel {
+	width: 400px;
+	margin: 0 auto;
+}
+p {
+	color: white;
+	font-size: 30px;
+	padding: 148px;
+}
+.right-arrow {
+	float: right;
+}
+.carousel-control-prev {
+	 position: absolute;
+    top: 168px;
+    left: 5px;
+    color: white;
+    font-size: 34px;
+}
+.carousel-control-next {
+	float: right;
+    position: relative;
+    top: -226px;
+    left: -18px;
+    color: white;
+    font-size: 30px;
+}
+.btn-success {
+	float: right;
+}
+.btn-primary {
+	 margin-left: 19px;
+
+}
+.blueBtn {
+	color: blue;
+}
