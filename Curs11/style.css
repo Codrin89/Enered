@@ -1,0 +1,40 @@
+.backgroud-item{
+	width: 400px;
+	height: 400px;
+	/*display: inline-block;*/
+}
+.red{
+	background-color: red;
+}
+.blue{
+	background-color: blue;
+}
+.grey{
+	background-color: grey;
+}
+
+.carousel{
+	width: 400px;
+	margin: 0 auto;
+}
+.carousel-control-prev{
+	float: left;
+	position: relative;
+	margin-top: -200px;
+    align-items: center;
+}
+
+.carousel-control-next{
+	float: right;
+	position: relative;
+    align-items: center;
+    margin-top: -200px;
+}
+.btn{
+	margin-left: 425px;
+	display: inline-block;
+}
+
+.blueBtn{
+	color: blue;
+}
