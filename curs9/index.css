@@ -1,0 +1,154 @@
+* {
+	margin: 0;
+}
+
+.header-bar {
+	background-color: #3879cc;
+	height: 67px;
+}
+.header-bar .headercontainer {
+    position: relative;
+}
+.header-bar .logo {
+	background-color: red;
+	float: left;
+	height: 50px;
+	width: 225px;
+	margin-top: 10px;
+	display: inline-block;
+	margin-left: 115px;
+}
+.header-bar .social-buttons {
+	float: right;
+	margin-right: 115px;
+	font-size: 32px;
+	color: #a5cdff;
+	position: absolute;
+    right: 15px;
+    top: 13px;
+
+}
+.header-bar .social-buttons i:hover {
+	color: white;
+}
+.navbar {
+	margin: 0 90px;
+    border: 1px solid #e7e7e7;
+    height: 50px;
+    margin-bottom: 20px;
+ }
+.navbar ul li {
+    display: inline-block;
+    color: #555;
+    height: 20px;
+    padding: 15px;
+    font-size: 14px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.navbar ul li.settings {
+	float: right;
+	margin-right: 15px;
+}
+.navbar ul {
+	margin-left: 15px;
+	padding-left: 0;
+
+}
+.navbar ul li:hover {
+	background-color: #f1f1f1;
+}
+.maincontent {
+	border: 1px solid #e3e3e3;
+	margin: 0 90px;
+}
+.maincontent .content {
+	width: 70%;
+	float: left;
+	min-height: 10px;
+}
+.maincontent .sidebar {
+	width: 30%;
+	float: left;
+}
+.maincontent .sidebar .upcoming h2 {
+	margin-bottom: 10px;
+	font-family: "Roboto", sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	color: #555;
+
+}
+.maincontent .sidebar .upcoming {
+	border-bottom: 1px solid #e3e3e3;
+}
+.maincontent .sidebar .upcoming p {
+	margin-bottom: 10px;
+	color: #333;
+	font-size: 12px;
+}
+.maincontent .sidebar .upcoming p a {
+	color: red;
+}
+.maincontent .sidebar .upcoming p a:hover {
+	text-decoration: underline;
+}
+.maincontent .sidebar .items {
+	margin-top: 20px;
+
+}
+.maincontent .sidebar .items h2 {
+	margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	color: #555;
+}
+.maincontent .sidebar .items .item {
+	background-color: #e4f6d4;
+	border-bottom: 1px solid #cedec0;
+	padding: 2px 0;
+}
+.maincontent .sidebar .items .item h4 {
+	padding: 3px 7px;
+}
+.maincontent .sidebar .items .item label {
+    color: #98ad85;
+    float: right;
+    margin-top: 9px;
+    margin-right: 7px;
+}
+.maincontent .sidebar .items .item p {
+	margin-left: 7px;
+	font-size: 12px;
+	padding-bottom: 4px;
+	color: #98ad85;
+}
+.maincontent .sidebar .items .item:hover {
+	background-color: #d8f2c2;
+}
+.maincontent .sidebar .items .item h4 i {
+	color: #4c7923;
+    font-size: 11px;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+.maincontent .content img:first-child {
+    margin-left: 0;
+}
+.maincontent .content img {
+	margin-left: 20px;
+
+
+}
+.maincontent .content .another-img {
+    margin-left: 20px;
+	float: left;
+	width: 250px;
+	height: 40px;
+	background-color: rgba(0, 0, 0, 0.6);
+	margin-top: -10px;
+
+}
+.maincontent .content .another-img:first-child {
+	margin-left: 0;
+}
