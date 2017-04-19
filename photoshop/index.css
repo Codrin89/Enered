@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.content {
+	height: 780px;
+	width: 100%;
+	padding: 0 157px;
+	width: auto;
+}
+.header img {
+	width: 100%;
+}
+.footer img {
+	width: 100%;
+}
+.breadcrumb {
+	background-image:url("icon.png");
+	background-repeat: no-repeat;
+	padding-left: 25px;
+	background-position: left center;
+}
+th{
+	color:#6b4896;
+	padding: 8px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+td{
+	padding: 8px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-color: #d5d5d5;
+    width:100%;
+    border:none;
+}
