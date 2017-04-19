@@ -1,0 +1,22 @@
+*{
+	margin:0;
+	padding:0;
+}
+.header, .footer, .content{
+	width:100%;
+}
+
+.header img, .footer img {
+	width:100%;
+}
+.content{
+	height:780px;
+	padding:0 147px;
+	width:auto;
+}
+.breadcrumb{
+	background:url('home.png');
+	background-repeat:no-repeat;
+	padding-left:18px;
+	background-position:left center;
+}
