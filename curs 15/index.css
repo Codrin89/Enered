@@ -1,0 +1,36 @@
+*{
+	margin:0;
+	padding:0;
+}
+.header, .footer, .content{
+	width:100%;
+}
+.header img, .footer img{
+	width:100%;
+}
+.content{
+	height:780px;
+	width:auto;
+	padding:0 147px;
+
+}
+.breadcrumb{
+	background:url('home.png');
+	background-repeat:no-repeat;
+	color:#7f60a4;
+	padding-left:20px;
+	background-position:left, center;
+}
+table{
+	border-collapse:collapse;
+	border-color:#d5d5d5;
+	border:none;
+	width:100%;
+}
+table>thead{
+	color:#6b4896;
+	font-family: 'Montserrat', sans-serif;
+}
+th, td{	
+	padding:8px;
+}
