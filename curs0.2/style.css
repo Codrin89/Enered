@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.content {
+	height: 780px;
+	padding: 0 155px;
+    width: auto;
+}
+.header img {
+	width: 100%;
+}
+.footer img {
+	width: 100%;
+}
+.content i {
+	color: purple;
+}
+.content p {
+	color: grey;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.content table thead {
+	color: #6b4896;
+}
+thead {
+font-family: 'Montserrat', sans-serif;
+}
+td {
+	font-family: 'UnifrakturCook', cursive;
+}
