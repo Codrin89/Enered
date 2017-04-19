@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+img {
+	width: 100%;
+}
+.header, .footer, .content {
+	width: 100%;
+}
+.header img, .footer img, {
+	width: 100%;
+}
+.content {
+	height: 780px;
+	padding: 0 147px;
+	width: auto;
+}
+.content .fa-home {
+	color:#6b4896;
+}
+.content p {
+	display: inline-block;
+}
+table {
+	border-collapse: collapse;
+	border:none;
+	border-color: #d5d5d5;
+	width: 100%;
+	text-align: center;
+}
+table th {
+	color: #6b4896;
+}
+th , td {
+	font-family: 'Montserrat', sans-serif;
+	padding: 8px;
+}
