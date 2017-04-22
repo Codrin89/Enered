@@ -1,0 +1,53 @@
+*{
+	margin:0;
+	padding:0;
+}
+.header, .footer  {
+	width:100%;
+}
+.header img, .footer img {
+	width:100%;
+}
+.content {
+	height:1450px;
+}
+.visibleNone {
+	visibility: hidden;
+}
+.breadcrumb {
+	background: url('home.png'); 
+	background-repeat: no-repeat;
+	
+	padding-left:18px;
+	background-position: left center;
+
+
+}
+.popcorn{
+	float:right;
+}
+.form-group label {
+    color: #242424;
+    font-weight: 400;
+    font-size: 14px;
+}
+.dropdown button{
+	padding: 6px 5px;
+
+
+}
+.row .col-md-4 p{
+	margin-bottom: 5px;
+}
+.form-exposed .col-md-4 {
+	padding:0 2px;
+}
+.form-exposed .col-md-4:first-child {
+	padding:0 4px 0 0;
+}
+.form-exposed .col-md-4:last-child {
+	padding:0 0 0 4px;
+}
+.form-exposed button {
+	width:100%;
+}
