@@ -1,0 +1,26 @@
+*{
+	margin:0;
+	padding:0;
+}
+.header, .footer, .content{
+	width:100%;
+}
+.header img, .footer img{
+	width:100%;
+}
+.content{
+	height:1480px;
+}
+.breadcrumb{
+	background:url('home.png');
+	background-repeat:no-repeat;
+	color:#7f60a4;
+	padding-left:20px;
+	background-position:left, center;
+}
+.popcorn{
+	float:right;
+}
+.dropdown{
+	font-weight:
+}
