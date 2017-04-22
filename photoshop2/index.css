@@ -1,0 +1,66 @@
+ *{
+	margin: 0;
+	padding: 0;
+}
+.content {
+	height: 1480px;
+	
+}
+.header, .footer {
+	width: 100%;
+}
+.header img {
+	width: 100%;
+}
+.footer img {
+	width: 100%;
+}
+.breadcrumb {
+	background-image:url("icon.png");
+	background-repeat: no-repeat;
+	padding-left: 25px;
+	background-position: left center;
+	color: purple;
+}
+h3{
+	color:purple;
+	padding:20px 0;
+}
+p{
+	padding:20px 0;
+}
+.popcorn {
+	float:right;
+	margin-top: -188px;
+}		
+.butonase {
+	margin-top: -14px;
+}
+.Parola {
+	margin-top: 25px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #337ab7; 
+    height: 35px;
+    width: 100%;
+}
+.butonase .col-md-4 {
+	padding: 0 2px;
+}
+.butonase .col-md-4:first-child {
+	padding: 0 4px 0 0;
+}
+.butonase .col-md-4:last-child {
+	padding: 0 0 0 4px;
+}
+.btn-group .col-md-4 {
+	padding:0 2px;
+}
+.col-md-4:first-child {
+	padding: 0 4px 0 0;
+}
+.col-md-4:last-child {
+	padding: 0 0 0 4px;
+}
