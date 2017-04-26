@@ -1,0 +1,47 @@
+.animate{
+	width:200px;
+	height:200px;
+	background-color:fuchsia;
+	display:none;
+}
+
+.animate-color{
+	animation-name: redToyellow;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+}
+
+.animate-position{
+	position:relative;
+	animation-name:leftToright;
+	animation-duration:2s;
+	animation-iteration-count:infinite;
+}
+
+
+
+
+
+@keyframes redToyellow {
+    0% {background-color: red;}
+   
+    10% {background-color: yellow;} 
+     20% {background-color: black;}
+      30% {background-color: pink;}
+       40% {background-color: green;}
+        50% {background-color: blue;}
+         60% {background-color: grey;}
+          70% {background-color: red;}
+           80% {background-color: fuchsia;}
+            90% {background-color: orange;} 
+             100% {background-color: purple;}
+}
+@keyframes leftToright{
+	0%{left:0px;top:0px;background-color:fuchsia; transform:rotate(0deg);}
+	10%{left:100px;}
+	30%{top:300px;background-color:green;}
+	50%{left:200px;}
+	70%{top:100px;}
+	90%{left:50px;background-color:blue;}
+	100%{top:0px;left:0px;transform:rotate(360deg);background-color:fuchsia;}
+}

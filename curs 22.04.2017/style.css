@@ -2,7 +2,7 @@
 	margin:0;
 	padding:0;
 }
-.header, .footer, .content{
+.header, .footer{
 	width:100%;
 }
 
@@ -10,13 +10,24 @@
 	width:100%;
 }
 .content{
-	height:1450px;
-	padding:0 147px;
-	width:auto;
+	height:780px;
+	
+	
 }
 .breadcrumb{
 	background:url('home.png');
 	background-repeat:no-repeat;
 	padding-left:18px;
 	background-position:left center;
+}
+.popcorn{
+	float:right;
+}
+.form-group label{
+	font-size:14px;
+	color:#242424;
+	font-weight:400;
+}
+.dropdown{
+	
 }
