@@ -36,3 +36,11 @@
 	100%{top:0px; left:0px; transform:rotate(360deg);}
 
 }
+.circle {
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	border-radius: 50%;
+	position: absolute;
+
+}

@@ -11,6 +11,11 @@
 
 	});
 
+	$(document).click(function(event) {
+		$('.circle').css('top', event.pageY);
+		$('.circle').css('left', event.pageX);
+	});
+
 
 
 
