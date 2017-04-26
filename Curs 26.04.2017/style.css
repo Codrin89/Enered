@@ -1,0 +1,38 @@
+.animate{
+	height: 200px;
+	width: 200px;
+	background-color:  magenta;
+	display:none;
+}
+
+
+.animate-position {
+	position: relative;
+	animation-name: leftToRight;
+    animation-duration: 10s;
+    animation-iteration-count:infinite;
+}
+@keyframes redToYellow {
+    0%{background-color: red;}
+    10%{background-color: black;}
+    20%{background-color: green;}
+    30%{background-color: blue;}
+    40%{background-color: fuchsia;}
+    50%{background-color: grey;}
+    60%{background-color: violet;}
+    70%{background-color: orange;}
+    80%{background-color: brown;}
+    90%{background-color: pink;}
+    100%{background-color: purple;}
+
+}
+@keyframes leftToRight {
+	0%{left:0px; top:0px; transform:rotate(0deg);}
+	10%{left:100px;}
+	30%{top:300px;}
+	50%{left:200px;}
+	70%{top:100px;}
+	90%{left:50px;}
+	100%{top:0px; left:0px; transform:rotate(360deg);}
+
+}
