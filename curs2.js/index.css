@@ -1,0 +1,42 @@
+.red {
+	background: red;
+}
+.green {
+	background: green;
+}
+.blue {
+	background: blue;
+}
+.background-item {
+	width: 400px;
+	height: 400px;
+}
+.carousel {
+	width: 400px;
+	margin:0 auto;
+}
+.carousel-control-prev {
+	position:absolute;
+	top:176px;
+	bottom:0px;
+	color:white;
+
+}
+.carousel-control-next {
+	position:absolute;
+	top:176px;
+	bottom:0px;
+	margin-right: 20px;
+	margin-left: 393px;
+	color:white;
+}
+p  {
+	position: absolute;
+	padding:0 173px 0 173px;
+	top: 176px;
+	bottom: 50px;
+
+}
+.blueBtn {
+	color: blue;
+}
