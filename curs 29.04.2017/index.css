@@ -1,0 +1,30 @@
+body{
+	background-color: lightpink ;
+}
+.form-control {
+	color: purple;
+}
+h3 {
+	color:purple;
+	font-weight: bold;
+	font-size: 40px;
+	border-bottom: 1px ridge grey;
+	min-height: 125px;
+	max-height:125px;
+	text-align: center;
+
+}
+
+p {
+	color: blue;
+	font-size: 20px;
+	padding-top: 7px;
+	text-align: center;
+}
+.person {
+	float:left;
+	border: 1px ridge grey; 
+	max-height: 420px;
+	min-height: 420px;
+	width:200px;
+	padding: 1px;
