@@ -1,0 +1,27 @@
+.sw-list{
+	display: flex;
+}
+.person{
+	border: 1px solid grey;
+}
+
+.name{
+	color: red;
+}
+
+.age,.gender{
+	color: green;
+	font-size: 20px;
+}
+#getData{
+	color: orange;
+	background-color: red;
+}
+#getData:hover{
+	background-color: green;
+}
+
+
+.person:nth-child(even) {
+    background-color: #dddddd;
+}
