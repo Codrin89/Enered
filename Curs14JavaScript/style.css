@@ -1,0 +1,87 @@
+* {
+	margin: 0;
+	
+}
+
+.header, .footer, .content {
+	width: 100%;
+}
+
+.header img, .footer img {
+	width: 100%;
+}
+
+.content {
+	height: auto;
+	width: auto;
+}
+
+.breadcrumb{
+	color: #a1a1a1;
+	padding: 0 158px;
+	width: auto
+
+}
+.content i {
+	color:#8365a7;
+}
+.text {
+	float:left;
+	width: 70%;
+}
+
+.rightpic {
+	float:left;
+	width: 30%;
+	
+	
+}
+.actualizare {
+	color:#8365a7;
+	font-size: 27px;
+}
+.info {
+	font-size: 14px;
+	margin-top: 50px;
+}
+.row input {
+	width: 328px;
+}
+.form-date {
+	width: 50px;
+}
+.dropdown-toggle {
+	width: 98px;
+	display: inline-block;
+}
+.drop-btn {
+	width: 96px;
+
+}
+.btn-group {
+	width: 31%;
+}
+.underline {
+	margin-top:60px;
+}
+.buble {
+	margin-top:40px;
+	float:left;
+	width: 30%;
+}
+.card{
+	float:left;
+	margin-top:40px;
+
+
+}
+.btn-add {
+	width: 220px;
+    height: 45px;
+	padding: 0 40% ; 
+	margin-top: -25px;
+}
+.btn-addcard { 
+	
+
+}

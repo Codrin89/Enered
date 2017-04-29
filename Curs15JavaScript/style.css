@@ -1,0 +1,94 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+body{
+	background-image: url(img/maxresdefault.jpg);
+}
+
+
+
+
+.left{
+width: 50%;
+float:left;
+display: inline-block;
+}
+.right{
+	float: left;
+	width: 50%;
+
+}
+
+.circle {
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	border-radius: 50%;
+	position: absolute;
+}
+
+
+
+
+
+.animate {
+ 	background-color: magenta;
+ 	width: 200px;
+ 	height: 200px;
+ 	display: none;
+ }
+
+.animate-color {
+	animation-name: redToYellow;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+.animate-position {
+	position: relative;
+	animation-name: leftToRight ;
+    animation-duration: 0.02s;
+    animation-iteration-count: infinite;
+    
+
+}
+
+
+ @keyframes redToYellow {
+    0%{background-color: red;}
+    10%{background-color: blue;}
+    20%{background-color: lightgrey;}
+    30%{background-color: magenta;}
+    40%{background-color: yellow;}
+    50%{background-color: purple;}
+    60%{background-color: black;}
+    70%{background-color: green;}
+    80%{background-color: #123332;}
+    90%{background-color: #003d32;}
+    100%{background-color: #554h32;}
+
+}
+
+ @keyframes leftToRight {
+ 	0% {left: :0 0px;top: 0px;transform:rotate(0deg);}  
+ 	10% {left:100px; }
+ 	30% {left:300px; }
+ 	50% {left:200px; }
+ 	70% {left:100px; }
+ 	90% {left:50px; }
+ 	100% {left:0px;left: 0px; transform: rotate(360deg)}
+ 	0%{background-color: red;}
+    10%{background-color: blue;}
+    20%{background-color: lightgrey;}
+    30%{background-color: magenta;}
+    40%{background-color: yellow;}
+    50%{background-color: purple;}
+    60%{background-color: black;}
+    70%{background-color: green;}
+    80%{background-color: #123332;}
+    90%{background-color: #003d32;}
+    100%{background-color: #554h32;}
+
+ }
+

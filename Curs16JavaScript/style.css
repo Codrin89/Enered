@@ -1,0 +1,28 @@
+* {
+	margin:0;
+	padding: 0;
+}
+
+body {
+	background-color: blue;
+}
+.person {
+	display: inline-block;
+	float:left;
+	width: 20%;	
+	border:1px solid white;
+	background-color: #cec4c4;
+}
+ 
+p {
+	color: white;
+}
+h3 {
+	color: red ;
+	text-decoration: underline;
+}
+
+.life {
+	
+	width: 100%;
+}
