@@ -1,0 +1,23 @@
+.form-group {
+	width: 200px;
+	margin: 50px 480px 0px;
+}
+.btn-primary{
+	margin: 13px 480px 0px;
+}   
+.person  {
+	display: inline-block;
+    width: 195px;
+    height: auto;
+    margin: 10px;
+    border: 1px solid #4477AA; 
+    padding: 0px 12px;
+    border-radius:25px; 
+    background-color: #7DFFB4;
+
+}
+h3 {
+	font-size: 20px;
+	color: blue;
+
+}

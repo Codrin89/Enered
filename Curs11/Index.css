@@ -1,0 +1,58 @@
+.red{
+	background: url('http://www.intrawallpaper.com/static/images/23-animation-wallpaper.preview.jpg');
+	text-align: center;
+	font-family: bold;
+	font-size: 100px;
+	background-repeat: no-repeat;
+
+
+}
+.green{
+	background: url('http://www.uniwallpaper.com/static/images/6890733-mountain-peaks-wallpaper-hd_PZTQDff.jpg');
+	text-align: center;
+	font-family: bold;
+	font-size: 100px;
+	background-repeat: no-repeat;
+
+}
+.blue{
+	background: url('https://www.qdtricks.net/wp-content/uploads/2016/05/hd-road-wallpaper.jpg');
+	text-align: center;
+	font-family: bold;
+	font-size: 100px;
+}
+.background-item{
+	width: 400px;
+	height:400px;
+}
+.carousel{
+	width: 400px;
+	margin: 0 auto;   
+}
+.carousel-control-next {
+	bottom: 50px;
+    height: 23px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: -500px;
+    top: 0;
+    width: 14px;
+    font-size: 50px;
+
+}
+.carousel-control-prev{
+	bottom: 50px;
+    height: 23px;
+    left: -500px;
+    margin: auto;
+    position: absolute;
+    right:0;
+    top: 0;
+    width: 14px;
+    font-size: 50px;
+
+}
+.blueBtn{
+	color: blue;
+}

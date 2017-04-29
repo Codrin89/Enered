@@ -1,0 +1,48 @@
+.animate {
+	height: 100px;
+	width: 100px;
+	background-color: grey;
+	display: none;
+}
+
+.animate-color {
+	animation-name: redToYellow;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.animate-position{
+	position: relative;
+	animation-name:leftToRight;
+	animation-duration:10s;
+	animation-iteration-count:infinite;
+}
+
+@keyframes redToYellow {
+	0% {background-color: red;}
+    10% {background-color: blue;}
+    20% {background-color: green;}
+    30% {background-color: magenta;}
+    40% {background-color: purple;}
+    50% {background-color: black;}
+    60% {background-color: pink;}
+    70% {background-color: grey;}
+    80% {background-color: yellow;}
+    90% {background-color: orange;}
+    100% {background-color: aqua;}
+}
+@keyframes leftToRight {
+	0% {left: 0px; top: 0px;background-color: red;transform: rotate(0deg);}
+    10% {left: 100px;}
+    30% {top: 300px;}
+    50% {left:200px;background-color: blue;}
+    70% {top: 100px;}
+    90% {left: 50px;}
+    100% {top:0px; left:0px ;background-color: yellow;transform: rotate(360deg);}
+}
+.circle{
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	border-radius: 50%;
+	position:absolute;
+}
