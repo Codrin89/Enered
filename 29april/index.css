@@ -1,0 +1,24 @@
+.container{
+	text-align: center;
+}
+.person {
+	width: 300px;
+	display: inline-block;
+	border: solid 1px blue;
+	text-align: center;
+	color: grey;
+	animation-name: fade;
+    animation-duration: 10s;
+}
+.name {
+	font-weight: bold;
+	color: black;
+	border-bottom: solid 1px green;
+}
+@keyframes fade {
+  from {  
+            opacity:0; 
+        } to { 
+            opacity:1; 
+}
+  

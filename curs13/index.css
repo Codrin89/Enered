@@ -1,0 +1,95 @@
+.animate {
+	width: 200px;
+	height: 200px;
+	background-color: grey;
+	display: none;
+}
+.animate-color {
+	animation-name: redToYellow;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+	position: relative;
+
+
+}
+@keyframes redToYellow {
+    /*0% {background-color: red;left: 0px;top: 0px;}
+    10% {background-color: blue;left: 100px;}
+    20% {background-color: yellow;}
+    30% {background-color: pink;top: 300px;}
+    40% {background-color: purple;}
+    50% {background-color: grey;left: 200px;}
+    60% {background-color: green;}
+    70% {background-color: brown;top: 100px;}
+    80% {background-color: black;}
+    90% {background-color: orange;left: 50px;}
+    100% {background-color: white;top: 0px;left: 0px;}*/
+   /* from { 
+            transform: rotate(0deg); 
+        } to { 
+            transform: rotate(360deg); 
+        }*/
+    0% {
+	transform:translateY(-100%);
+	opacity: 0;
+    }
+    5% {
+  	transform:translateY(-100%);
+    opacity: 0;}
+    15% {
+    transform:translateY(0);
+    padding-bottom: 5px;
+    }
+    30% {
+    transform:translateY(-10%);
+    }
+    40% {
+  	transform:translateY(0%);
+    padding-bottom: 6px;
+    }
+    50% {
+    transform:translateY(-30%);
+    }
+    70% {
+    transform:translateY(0%);
+    padding-bottom: 7px;
+    }
+    80% {
+    transform:translateY(-40%);
+     }
+    90% {
+    transform:translateY(0%);
+    padding-bottom: 8px;
+    }
+    95% {
+    transform:translateY(-70%);
+    }
+    97% {
+    transform:translateY(0%);
+    padding-bottom: 9px;
+    }
+    99% {
+    transform:translateY(-90%);
+    }
+    100% {
+    transform:translateY(0);
+    padding-bottom: 9px;
+    opacity: 1;
+    }
+}
+/*@keyframes leftToRight {
+    0% {left: 0px;top: 0px;}
+    10% {left: 100px;}
+    30% {top: 300px;}
+    50% {left: 200px;}
+    70% {top: 100px;}
+    90% {left: 50px;}
+    100% {top: 0px;left: 0px;}
+}*/
+.circle {
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	border-radius: 50%;
+	position: absolute;
+}

@@ -1,0 +1,33 @@
+
+.red {
+   background: red;
+}
+.blue {
+   background: blue;
+}
+.green {
+   background: green;
+}
+.background-item {
+   height: 400px;
+   width: 400px;
+}
+.carousel {
+	width: 400px;
+	margin:0 auto;
+}
+.carousel-control-next, .carousel-control-prev {
+    position: relative;
+    color: white;
+    top: -202px;
+}
+.carousel-control-next {
+    right: 0;
+    float: right;
+}
+.carousel-control-prev {
+    left: 0;
+}
+.blueBtn {
+	color: black;
+}
