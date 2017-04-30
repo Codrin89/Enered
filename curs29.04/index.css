@@ -1,4 +1,4 @@
-.name{
+/*.name{
 	color:green;
 	font-size: 20px;
 }
@@ -7,14 +7,19 @@ p{
 	color:red;
 	font-size: 12px;
 	text-align: center;
-
+    
 }
 
 .person{
-	border: 2px solid purple ;
+	border: 10px solid purple ;
 	float:left;
-	font-size: 30px;
-	margin: 5px 5px 5px 5px;
-	font-size-adjust: all;
-	text-align: center ;
-}
+	max-height: 400px;
+	min-height:270px;
+	
+	
+	
+
+}*/
+body{
+	background: #ffe1ff;
+} 

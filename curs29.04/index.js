@@ -42,10 +42,6 @@
 
        
 
-        document.getElementById('getData').addEventListener('click' , function() { 
-        	getData();
-        })
-
 
 
 		function getData() {
@@ -113,6 +109,22 @@
 			//append to sw-list
 			mass.append(textMass);
 
+
+			
+
+			var arrayHomeworld = personData.homeworld.split('/');
+			
+
+			var homeworldId = arrayHomeworld[arrayHomeworld.length - 2];
+			
+
+			var homeworld = document.createElement('a');
+			homeworld.setAttribute('class', 'homeworld');
+			homeworld.setAttribute('href', 'planets.html?' + homeworldId);
+			var textHomeworld = document.createTextNode('Planets' + homeworldId);
+			//append to sw-list
+			homeworld.append(textHomeworld);
+
 			//person div append elements
 
 			divPerson.append(name);
@@ -122,12 +134,14 @@
 			divPerson.append(hair);
 			divPerson.append(gender);
 			divPerson.append(mass);
+			divPerson.append(homeworld);
 
-			console.log(divPerson);
+
 
 			//append to sw-list
 			document.getElementsByClassName('sw-list')[0].append(divPerson);
 		}
+		getData();
 
 
 })();
