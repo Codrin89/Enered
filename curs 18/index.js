@@ -1,5 +1,5 @@
 (function(){
-	/*document.getElementById('submitButton').addEventListener('click',function(){
+	document.getElementById('submitButton').addEventListener('click',function(){
 		var formCheck = false;
 
 		if(document.getElementById('userName').value ==''){
@@ -37,12 +37,9 @@
 			myObject = JSON.parse(myObject);
 			console.log(myObject);
 		}
-	});*/
+	});
 	document.getElementById('submitButton').addEventListener('click',function(){	
 	});
-	document.getElementById('getData').addEventListener('click',function(){	
-		getData();
-	})
 	function getData(){
 		var xhr = new XMLHttpRequest();
 		xhr.onreadystatechange = function() {
@@ -87,13 +84,40 @@
 		var textHair = document.createTextNode(personData.hair_color);
 		hair.append(textHair);
 
+		var gender = document.createElement('p');
+		gender.setAttribute('class','gender');
+		var textGender = document.createTextNode(personData.gender);
+		gender.append(textGender);
+
+		var mass = document.createElement('p');
+		mass.setAttribute('class','mass');
+		var textMass = document.createTextNode(personData.mass);
+		mass.append(textMass);
+
+		var arrayHomeworld = personData.homeworld.split('/');
+			console.log(arrayHomeworld);
+		var homeworldId = arrayHomeworld[arrayHomeworld.length - 2];
+			console.log(homeworld);
+		var homeworld = document.createElement('a');
+		homeworld.setAttribute('class','homeworld');
+		homeworld.setAttribute('href','planets.html?' + homeworldId);
+		var textHomeworld = document.createTextNode('Planet' + homeworldId);
+		homeworld.append(textHomeworld);
+		//homeworld.setAtribute('href','planets.html?'personData.homeworld.split())
+		/*var textHomeworld = document.createTextNode(personData.homeworld);
+		homeworld.append(textHomeworld);*/
+
 		divPerson.append(name);
 		divPerson.append(eye);
 		divPerson.append(age);
 		divPerson.append(skin);
 		divPerson.append(hair);
+		divPerson.append(gender);
+		divPerson.append(mass);
+		divPerson.append(homeworld)
 
 		//console.log(divPerson);
 		document.getElementsByClassName('sw-list')[0].append(divPerson);
 	}
+	getData();
 })();
