@@ -43,9 +43,9 @@
 
    });
 
-   document.getElementById('getData').addEventListener('click',function () {
-   		getData();
-   })
+   // document.getElementById('getData').addEventListener('click',function () {
+   // 		getData();
+   // })
    function getData(){
 	   var xhr = new XMLHttpRequest();
 	   xhr.onreadystatechange = function() {
@@ -138,6 +138,6 @@
    	  //append to sw-list
    	  document.getElementsByClassName('sw-list')[0].append(divPerson);
    }
-  
+  getData();
 
 })();

@@ -71,5 +71,10 @@
    loadPlanet();
 
 
+   document.getElementById('backToIndex').addEventListener('click',function(){
+       window.location.href = "index.html";
+   });
+
+
  
 })();
