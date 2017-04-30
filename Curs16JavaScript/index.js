@@ -43,9 +43,7 @@
 			}
 
 });
-		document.getElementById('getData').addEventListener('click', function() {
-			getData();
-		});
+		
 
 		function getData() {
 
@@ -116,12 +114,32 @@
 			height.append(textHeight);
 			divPerson.append(height)
 
-			console.log(divPerson);
+
+			//console.log(divPerson);
+
+			console.log(personData.homeworld);	//console link
+
+			var arrayHomeworld = personData.homeworld.split('/');
+			console.log(arrayHomeworld);    //console link split
+
+			var homeworldId = arrayHomeworld[arrayHomeworld.length - 2];
+			console.log(homeworldId);	// console link split -> value.length -2
+
+
+			var homeworld = document.createElement('a');
+			homeworld.setAttribute('class', 'homeworld');
+			homeworld.setAttribute('href', 'planets.html?' + homeworldId);
+			var textHomeworld = document.createTextNode('Planet' + homeworldId);
+			homeworld.append(textHomeworld);
+			divPerson.append(homeworld)
+			// homeworld.setAttribute('href', 'planets.html?' personData.homeworld.split())
 			
 			//append to sw-lis
 			document.getElementsByClassName('sw-list')[0].append(divPerson);
 
 
 		}
+
+		getData();
 
 })();

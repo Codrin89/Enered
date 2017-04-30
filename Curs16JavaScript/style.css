@@ -11,18 +11,18 @@ body {
 	float:left;
 	width: 20%;	
 	border:1px solid white;
-	background-color: #cec4c4;
+	background-color: #123133;
 }
  
 p {
 	color: white;
 }
 h3 {
-	color: red ;
+	color: white ;
 	text-decoration: underline;
 }
 
 .life {
 	
-	width: 100%;
+	margin-left: 486px;
 }
