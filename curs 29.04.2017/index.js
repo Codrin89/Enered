@@ -38,9 +38,7 @@
 	});
 
 
-document.getElementById('getData').addEventListener('click', function() {
-		getData();
-})
+	
 
 function getData() {
 
@@ -56,9 +54,9 @@ xhr.send();
 
 }
 
-function createElements(bigDATA) {
-	for (var i = 0; i < bigDATA.results.length; i++) {
-		createPerson(bigDATA.results[i]);
+function createElements(bigData) {
+	for (var i = 0; i < bigData.results.length; i++) {
+		createPerson(bigData.results[i]);
 	}
 }
  
@@ -88,7 +86,7 @@ function createElements(bigDATA) {
  		eye.append(textEye);
 
  		var hair = document.createElement('p');
- 		hair.setAttribute('class', 'planet');
+ 		hair.setAttribute('class', 'hair');
  		var textHair = document.createTextNode(personData.hair_color);
  		hair.append(textHair);
 
@@ -101,7 +99,24 @@ function createElements(bigDATA) {
  		mass.setAttribute('class', 'mass');
  		var textMass = document.createTextNode(personData.mass);
  		mass.append(textMass);
- 		
+
+ 		console.log(personData.homeworld); //console link
+
+ 		var arrayHomeworld = personData.homeworld.split('/');
+ 		console.log(arrayHomeworld); //console link split
+ 				
+ 		var homeworldId = arrayHomeworld[arrayHomeworld.length - 2];	
+ 		console.log(homeworldId); //console lin split -> value.length -2
+
+ 		var homeworld = document.createElement('a');
+ 		homeworld.setAttribute('class', 'homeworld');
+ 		homeworld.setAttribute('href', 'planets.html?' + homeworldId);
+ 		var textHomeworld = document.createTextNode('Planets' + homeworldId);
+ 		homeworld.append(textHomeworld);
+
+ 		 
+ 		 //person fiv append elements
+
  		divPerson.append(name);
  		divPerson.append(age);
  		divPerson.append(skin);
@@ -109,11 +124,15 @@ function createElements(bigDATA) {
  		divPerson.append(hair);
  		divPerson.append(gender);
  		divPerson.append(mass);
+ 		divPerson.append(homeworld);
 
- 		console.log(divPerson);
+ 		
  	 //append to sw-list
 
  	 		document.getElementsByClassName('sw-list')[0].append(divPerson);
+
  }
+
+getData();
 
 })();

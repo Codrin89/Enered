@@ -24,7 +24,7 @@ p {
 .person {
 	float:left;
 	border: 1px ridge grey; 
-	max-height: 420px;
-	min-height: 420px;
+	max-height: 456px;
+	min-height: 456px;
 	width:200px;
 	padding: 1px;
