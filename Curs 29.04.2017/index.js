@@ -39,9 +39,6 @@
     }
     });
 
-	document.getElementById('getData').addEventListener('click', function() {
-		getData();
-	})
 
 	function  getData(){
 		var xhr = new XMLHttpRequest();
@@ -90,15 +87,21 @@
 		divPerson.append(eye);
 
 
-		var hair = document.createElement('p');
-		hair.setAttribute('class','hair');
-		var textHair = document.createTextNode(personData.hair_color);
-		hair.append(textHair);
-		divPerson.append(hair);
+        var arrayHomeworld = personData.homeworld.split('/');
+        console.log(arrayHomeworld);
+		var homeworldId = arrayHomeworld[arrayHomeworld.length - 2];
+		console.log(homeworld);
+		var homeworld = document.createElement('a');
+		homeworld.setAttribute('class','homeworld');
+		homeworld.setAttribute('href','planets.html?' + homeworldId);
+		var textHomeworld = document.createTextNode('Planet'+ homeworldId);
+		homeworld.append(textHomeworld);
+		divPerson.append(homeworld);
 
 		console.log(divPerson);
 
 		document.getElementsByClassName('sw-list')[0].append(divPerson);
 
 	}
+	getData();
 })();
