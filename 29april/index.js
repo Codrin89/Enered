@@ -68,12 +68,7 @@
    	  var divPerson = document.createElement('div');
    	  divPerson.setAttribute('class','person');
 
-   	  var name = document.createElement('h3');
-   	  name.setAttribute('class','name');
-   	  var textName =document.createTextNode(personData.name);
-   	  //append text to element
-   	  name.append(textName);
-   	  
+
 
    	  var age = document.createElement('p');
    	  age.setAttribute('class','age');
@@ -123,10 +118,23 @@
       homeworld.setAttribute('href','planet.html?' + homeworldId);
       var textHomeworld = document.createTextNode('Planet: ' + homeworldId);
       homeworld.append(textHomeworld);
+
+
+      var arrayPeople = personData.url.split('/');
+      var peopleId = arrayPeople[arrayPeople.length - 2];
+      var people = document.createElement('a');
+      people.setAttribute('class','people');
+      people.setAttribute('href','name.html?' + peopleId);
+      var textPeople = document.createTextNode(peopleId +': '+ personData.name);
+      //append text to element
+      people.append(textPeople);
+
+
+       
       
 
       //person div append elements
-   	  divPerson.append(name);
+   	  divPerson.append(people);
    	  divPerson.append(age);
    	  divPerson.append(skin);
    	  divPerson.append(eye);
