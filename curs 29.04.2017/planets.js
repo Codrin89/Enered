@@ -75,6 +75,6 @@ loadPlanet();
 		window.location.href = "index.html";
 	});
 
-
+	
 
 })();
