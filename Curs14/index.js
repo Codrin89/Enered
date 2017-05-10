@@ -95,6 +95,23 @@ function createPerson(personData) {
 	//append text to element
 	hair.append(textHair);
 
+
+	console.log(personData.homeworld);
+
+	var arrayHomeworld = personData.homeworld.split('/');
+	console.log(arrayHomeworld);
+
+	var homeworldId = arrayHomeworld[arrayHomeworld.length - 2];
+	console.log(homeworldId);
+
+	var homeworld = document.createElement('a');
+	homeworld.setAttribute('class', 'homeworld');
+	homeworld.setAttribute('href', 'planets.html?' + homeworldId);
+	var textHomeworld = document.createTextNode('Planet '+ homeworldId);
+	homeworld.append(textHomeworld);
+
+
+
 	//person div append elements
 
 	divPerson.append(name);
@@ -102,6 +119,7 @@ function createPerson(personData) {
 	divPerson.append(age);
 	divPerson.append(skin);
 	divPerson.append(hair);
+	divPerson.append(homeworld);
 
 	console.log(divPerson);
 
