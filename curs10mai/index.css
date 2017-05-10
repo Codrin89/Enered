@@ -1,0 +1,17 @@
+*{
+	margin: 0;
+	padding:4;
+}
+.form-control{
+	background-color:yellow;
+
+}
+#file{
+	display: none;
+}
+.container{
+	width: 35%;
+	float: left;
+	overflow-y: auto;
+
+}
