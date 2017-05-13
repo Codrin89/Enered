@@ -1,0 +1,22 @@
+#hour {
+	color:red;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#minutes {
+	color: purple;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#seconds {
+	color: green;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#milisec {
+	color: blue;
+	font-size: 20px;
+}
