@@ -1,0 +1,7 @@
+				if(window.state){  //fara prim if
+						this.getElementsByTagName('h1')[0].innerHTML='x';
+						window.state=false;
+					}else{
+						this.getElementsByTagName('h1')[0].innerHTML='o';
+						window.state=true;
+					}

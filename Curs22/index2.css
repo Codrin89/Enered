@@ -1,0 +1,27 @@
+.xo .container{
+	max-width: 630px;
+	position: relative;
+
+}
+.xo .container .col-md-4{
+	border: 1px solid lightgrey;
+	height: 200px;
+}
+.line{
+	position: absolute;
+	height: 10px;
+	width: 80%;
+	margin-left: calc(10% - 10px);
+	margin-top: 46%;
+	background-color: red;
+	display: none;
+}
+.line.vertical{
+	transform:rotate(90deg);
+}
+.line.transform45{
+	transform:rotate(45deg);
+}
+.line.transform-45{
+	transform:rotate(-45deg);
+}
