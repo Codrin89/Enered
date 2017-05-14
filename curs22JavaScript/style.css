@@ -1,0 +1,67 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+body{
+	background-color: #87CEFA;
+}
+
+.popup{
+	display: none;
+	border:1px solid grey;
+	background-color: white;
+}
+
+.popup img{
+	display: none;
+}
+
+input[type="radio"].inputs{
+
+	margin-left:20px;
+}
+.container {
+	margin-top: 104px;
+}
+
+.xo .container{
+	max-width: 630px;
+	position: relative;
+
+
+}
+
+.xo .container .col-md-4{
+	border:5px solid black;
+	height: 200px;
+	border-color: white;
+
+}
+h1{
+	font-size: 150px;
+	color: yellow;
+	text-align: center;
+}
+
+.line{
+	position: absolute;
+	height: 10px;
+	width: 80%;
+	margin-top: 47%;
+	margin-left: calc(10% - 10px);
+	background-color: red;
+	display: none;
+}
+.line.vertical{
+	transform: rotate(90deg);
+
+}
+ 
+.line.stanga{
+transform: rotate(45deg);
+}
+
+.line.dreapta{
+	transform: rotate(-45deg);
+}
