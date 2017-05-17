@@ -1,0 +1,121 @@
+header.container-fluid{
+	background-color:#f1f1f1;
+	padding: 0 30px;
+	height:60px;
+
+}
+.logo{
+	background-image:url("https://www.google.ro/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png");
+	height:60px;
+	width:90px;
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:center;
+	display: inline-block;
+}
+.search{
+	margin-left:80px;
+	height:60px;
+	display:inline-block;
+	position:absolute;
+	padding-top:15px;
+	width:calc(100% - 400px);
+	max-width:600px;
+}
+.search input{
+	height:30px;
+}
+
+header .account{
+	position:relative;
+}
+header .account .dropdown-content{
+	position:absolute;
+	z-index: 10;
+	left:-330px;
+	background:#ffffff;
+	border:1px solid #e5e5e5;
+	width:370px;
+	top:60px;
+	display:none;
+}
+header .btn-gol{
+	width:32px;
+	height:32px;
+	color:white;
+	border-radius:50%;
+	background-color:none;
+	outline:none;
+	box-shadow:none;
+	border:none;
+	margin-top:14px;
+	margin-left:10px;
+}
+header .account .btn-gol{
+	background-color:red;
+}
+header .application .btn-gol{
+	background-color:green;
+
+}
+header .notification .btn-gol{
+	background-color:purple;
+}
+.main-content.container-fluid{
+	padding:0 30px;
+}
+.main-content .sidebar{
+	width:170px;
+	background-color:lightgrey;
+	min-height:200px;
+	float:left;
+}
+.main-content .mail-content{
+	width:calc(100% - 170px);
+	
+	min-height:200px;
+	float:left;
+}
+.main-content .tabs .tabs-step{
+	border:1px solid #e5e5e5;
+	border-top:3px solid #f1f1f1;
+	background-color:#f1f1f1;
+	padding:10px 15px;
+}
+.main-content .tabs{
+	border-bottom:1px solid #999999;
+}
+.main-content .tabs .principal:hover,
+.main-content .tabs .principal.active{
+	border-top:3px solid grey;
+}
+.main-content .tabs .social:hover,
+.main-content .tabs .social.active{
+	border-top:3px solid blue;
+}
+.main-content .tabs .offerts:hover,
+.main-content .tabs .offerts.active{
+	border-top:3px solid green;
+}
+.main-content .tabs .tabs-step.active{
+	background-color:#ffffff;
+}
+.main-content .mail-content .email-list{
+	margin-top:3px;
+	padding:0;
+}
+.main-content .mail-content .email-items {
+	display: none;
+}
+.main-content .mail-content .email-items.active-items{
+	display:block;
+}
+
+.main-content .mail-content .email-list .email-items .item{
+	border-top:1px solid #e5e5e5;
+	background-color:#f1f1f1;
+	padding:10px 15px;
+}
+.main-content .mail-content .email-list .email-items .item.active{
+	background-color:#ffffff;
+}
