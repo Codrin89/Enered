@@ -1,0 +1,31 @@
+body {
+	background-color: lightblue;
+}
+.slide {
+	width: 450px;
+	margin: 0 auto;
+	overflow: hidden;
+	height: 600px;
+}
+.carousel-indicators {
+	color: red;
+	background-color: lightgrey;
+	position: relative;
+	top: 260px;
+
+}
+.slide .carousel-inner {
+	width: 450px;
+} 
+.slide  .carousel-inner > .item {
+	display: block;
+	float: left;
+	opacity:  0.6;
+}
+.slide .carousel-inner > .item.active {
+	z-index: 999;
+	position: absolute;
+	left: 110px;
+	opacity: 1;
+
+}
