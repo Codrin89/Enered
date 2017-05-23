@@ -1,0 +1,150 @@
+* {
+	margin: 0;
+	padding: 0;
+
+}
+body{
+    background-color: #f1f1f1;
+
+}
+.header {
+	height: 460px;
+	background-color: #69d2e7;
+	border-top: 10px solid #fa6900;
+	font-family: "OpenSans" bold;
+}
+.header .logo {
+	margin: 35px 100px;
+	float: left;
+	height: 50px;
+}
+.header .logo img {
+	width: 50px;
+}
+.header .logo p {
+	float: right;
+	margin-left: 10px;
+	text-transform: uppercase;
+	font-weight: 700;
+
+}
+.header .menu {
+	margin: 35px 100px;
+	float: right;
+}
+.header .hello {
+	text-transform: uppercase;
+	color: #ffffff;
+	text-align: center;
+	margin-top: 150px;
+
+}
+.header .hello h1 {
+	font-size: 60px;
+}
+.header .hello h3 {
+	font-size: 25px;
+}
+.header span {
+    font-family: 'OpenSans';
+    text-transform: none;
+    font-weight: normal;
+}
+.section1 {
+	height: 700px;
+}
+.section1 .bigbox {
+	width: 950px;
+	height: 290px;
+	border: solid 1px #ffffff;
+	background-color: #ffffff;
+	color: #000000;
+	border-radius: 15px;
+	box-shadow: 10px #6b6b6b;
+	margin: -100px 200px 0 200px;
+}
+.section1 .bigbox p {
+	color: #6b6b6b;
+	padding: 30px;
+	font-size: 25px
+}
+.section1 .bigbox h2 {
+	border-bottom: 1px solid #f1f1f1;
+	margin: 20px 230px 0 230px;
+	text-align: center;
+	padding: 15px 100px;
+	text-transform: uppercase;
+	font-size: 30px;
+}
+.section1 .boxes .box {
+	float: left;
+	text-align: center;
+	width: 250px;
+	margin-right: 143px;
+}
+.section1 .boxes .box:last-child {
+	margin-right: 0;
+}
+.section1 .boxes .box .boxie {
+	width: 220px;
+	height: 220px;
+	padding: 30px;
+
+
+}
+.section1 .boxes {
+	margin: 65px 155px;
+}
+.section1 .boxes .box p {
+	font-size: 30px;
+}
+.section2 {
+	height: 500px;
+	background-color: #fa6900;
+}
+.section2 p {
+	padding: 50px 250px;
+	font-size: 25px;
+	color: #ffffff;
+	font-family: "OpenSans" sans;
+	text-align: center;
+}
+.section2 .slide {
+	width: 890px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.section2 .carousel-indicators {
+	z-index: 999;
+	top: 150px;
+}
+.section2 .carousel-indicators a{
+	text-decoration: none;
+
+}
+
+.section2 .slide .carousel-inner {
+	width: 1000px;
+}
+.section2 .slide .carousel-inner > .item  {
+	display: block;
+	max-height: 700px;
+	max-width: 1000px;
+	float: left;
+	opacity: 0.6;
+}
+
+.section2 .slide .carousel-inner > .item.active{
+	z-index: 999;
+	position: absolute;
+	left: 225px;
+	opacity: 1;
+}
+.section2 .carousel-indicators .carousel-control-prev-icon {
+    float: left;
+    margin-left: 65px;
+}
+.section2 .carousel-indicators .carousel-control-next-icon {
+    float: right;
+    margin-right: 65px;
+}
