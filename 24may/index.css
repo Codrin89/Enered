@@ -1,0 +1,103 @@
+.header {
+	padding: 20px;
+
+}
+.content {
+	min-height: 500px;
+}
+.content .left {
+	width: 34%;
+	float: left;
+	padding: 0 35px 0 15px;
+}
+.content .info h3 {
+	color: #27aae1;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+.content .info .info-text {
+	color: #939598;
+	line-height: 1.5;
+	font-size: 20px;
+}
+.content .info {
+	margin-bottom: 50px;
+}
+
+.header h1 {
+	display: inline-block;
+	color: #ffffff;
+	background-color: #27aae1;
+	padding:10px 40px;
+	font-weight: 900;
+	text-transform: uppercase;
+	margin-left: -20px;
+	position: absolute;
+	margin-top: 90px;
+	font-size: 40px;
+}
+.header img {
+	width: 250px;
+	height: 250px;
+}
+.content .info.contact .info-text {
+    border-bottom: 1px solid #939598;
+    width: 90%;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+.content .info.contact .info-text .name {
+	font-weight: bold;
+}
+.content .info.contact .info-text .value {
+	float: right;
+}
+.content .right {
+	height: 800px;
+	width: 66%;
+	float: left;
+    border-left: 2px solid #e8e8e8;
+    padding: 0 15px 0 35px;
+    margin-top: 27px;
+}
+.content .right h3 {
+    margin-top: -7px;
+
+}
+.content .right .glyphicon-play {
+	transform: rotate(90deg);
+	font-size: 20px;
+	position: relative;
+	top: 4px;
+	left: 9px;
+}
+.content .right .education .info-text {
+	padding: 0 30px;
+} 
+.content .right .education .info-text .education-name {
+	display: block;
+	font-size: 23px;
+	font-weight: bold;
+}
+.content .right .education .info-text .education-name .period {
+	font-size: 15px;
+	margin-left: 15px; 
+}
+.content .right .education .info-text .education-title {
+	display: block;
+	text-transform: uppercase;
+	margin-left: 15px;
+	font-weight: bold;
+	font-size: 17px;
+}
+.content .right .education .info-text .text {
+    margin-left: 15px;
+    font-size: 13px;
+    font-weight: bold;
+    display: block;
+}
+.footer {
+	min-height: 200px;
+	background-color: #4a4f5a;
+}

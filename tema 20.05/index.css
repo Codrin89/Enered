@@ -1,3 +1,8 @@
+@font-face{
+	font-family: 'OpenSans-Bold';
+	src: url('opensans/OpenSans-Bold.ttf');
+
+}
 * {
 	margin: 0;
 	padding: 0;
@@ -11,7 +16,7 @@ body{
 	height: 460px;
 	background-color: #69d2e7;
 	border-top: 10px solid #fa6900;
-	font-family: "OpenSans" bold;
+	font-family: 'OpenSans-Bold';
 }
 .header .logo {
 	margin: 35px 100px;
@@ -46,7 +51,7 @@ body{
 	font-size: 25px;
 }
 .header span {
-    font-family: 'OpenSans';
+    font-family: 'OpenSans-Bold';
     text-transform: none;
     font-weight: normal;
 }
