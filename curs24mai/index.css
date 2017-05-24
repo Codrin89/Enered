@@ -1,0 +1,107 @@
+.header {
+	padding: 30px 15px;
+	border-bottom: 1px solid black;
+}
+.header h1 {
+	display: inline-block;
+	background-color: #27aae1;
+	color: #fff;
+	padding: 7px 25px;
+	text-transform: uppercase;
+	font-size: 40px;
+	font-weight: 900;
+	margin-left: -20px;
+}
+.header img {
+	width: 250px;
+	height:250px;
+}
+.content {
+	min-height: 500px;
+}
+.content .left {
+	height: 650px;
+	padding: 0 35px 0 15px;
+	width:  34%;
+	float: left;
+	background-color: pink;
+	border-right: 2px solid #e8e8e8;
+}
+.content .info {
+	margin-bottom: 50px;
+}
+.content .info h3 {
+	color: #27aae1;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 15px;
+
+}
+.content .info .info-text {
+	color: #939598;
+	line-height: 1.5;
+	font-size: 20px;
+}
+.content .right {
+	height: 650px;
+	width:  66%;
+	float: left;
+	background-color: lightblue;
+}
+.content .right .glyphicon-play {
+	transform: rotate(90deg);
+	font-size: 24px;
+	position: relative;
+	top: 8px;
+}
+.content .right .education{
+
+}
+.content .right .info h3 {
+	color: #27aae1;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 15px;
+
+}
+.content .right .info .info-text {
+	color: #939598;
+	line-height: 1.5;
+	font-size: 20px;
+}
+.content .right .info .info-text .education-name .period {
+	font-size: 18px;
+	margin-left: 15px;
+}
+.content .right .info .info-text .education-title {
+	display: block;
+	margin-top: 15px;
+	font-weight: bold;
+	font-size: 10px;
+}
+.content .right .info .info-text .experience-title {
+	display: block;
+	margin-top: 15px;
+	font-weight: bold;
+	font-size: 10px;
+}
+.content .right .info .info-text .education-name .description {
+	margin-left: 15px;
+	display: block;
+}
+.footer {
+	min-height: 200px;
+	background-color: #4a4f5a;
+}
+.content .info.contact .info-text {
+	border-bottom: 1px solid #939598;
+	width: 90%;
+	padding-bottom: 10px;
+	font-size: 18px;
+}
+.content .info.contact .info-text .name {
+	font-weight: bold;
+}
+.content .info.contact .info-text .value {
+	float: right;
+}
