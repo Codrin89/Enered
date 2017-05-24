@@ -1,0 +1,103 @@
+.header{
+	min-height: 200px;
+	/*background-color: grey;*/
+	border-bottom: 1px solid black;
+	padding: 30px 15px;
+}
+.header h1{
+	display: inline-block;
+	background-color: #27aae1;
+	color: white;
+	font-size: 50px;
+	text-transform: uppercase;
+	padding: 7px 25px;
+    margin-left: -20px;
+    /*font-weight: bold;*/
+    font-weight: 900;
+}
+.content{
+	min-height: 500px;
+}
+.content .left{
+	padding: 0 35px 0 15px;
+	height: 500px;
+	/*background-color: red;*/
+	width: 34%;
+	float: left;
+    border-right: 1px solid #e8e8e8;
+}
+.content .info{
+	margin-bottom: 50px;
+}
+.content  .info h3{
+	color: #27aae1;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+.content .info .info-text{
+	color: #939598;
+	line-height: 1.5;  /*spatiu randuri*/
+	font-size: 15px;
+}
+.content .info.contact .info-text{
+	border-bottom: 1px solid #939598;
+	width: 90%;
+	padding-bottom: 10px;i
+}
+.content .info.contact .info-text .name{
+	font-weight: bold;
+}
+.content .info.contact .info-text .value{
+	float: right;
+}
+
+
+.content .right{
+	height: 500px;
+	/*background-color: blue;*/
+	width: 66%;
+	float: left;
+	padding: 0 15px 0 35px;
+}
+.content .right .glyphicon-play{
+	transform: rotate(90deg);
+	font-size: 20px;
+	position: relative;
+	top: 6px;
+	left: 5px;
+}
+.content .right .education .info-text{
+   padding: 0 30px;
+}
+.education-name, .education-title {
+	display: block;
+}
+.education-name{
+	font-size: 25px;
+	font-weight: bold;
+}
+.education-name .period{
+	font-size: 18px;
+	margin-left: 15px;
+}
+.education-title{
+	margin-left: 15px;
+	font-weight: bold;
+	font-size: 20px;
+}
+.description{
+	margin-left: 15px;
+}
+.footer{
+	min-height: 200px;
+	background-color: #4d4d4d;
+}
+
+img{
+	width: 250px;
+	height: 250px;
+	/*margin-left: 30px;
+	margin-top: 30px;*/
+
+}
