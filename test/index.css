@@ -1,0 +1,30 @@
+#header{
+	background-color: green;
+	width: 1439px;
+	height: 250px;
+	text-align: center;
+	padding-top: 101px;
+	
+
+}
+
+
+#content{
+	background-color: blue;
+	width: 1439px;
+	height: 250px;
+	display: block;
+	
+}
+
+#footer{
+	background-color: purple;
+	width: 1439px;
+	height: 250px;
+	text-align: center;
+	padding-top: 51px;
+}
+
+.adaugare {
+	display: block;
+}
