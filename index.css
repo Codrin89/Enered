@@ -1,0 +1,59 @@
+.container1{
+	height: 464px;
+	background-color: lightblue;
+	text-align: center;
+}
+.container1 button{
+	margin-top: 150px;
+}
+.container2{
+	height: 464px;
+	background-color: #fa6900;
+	padding-left: 100px;
+    padding-right: 100px;
+}
+.container2 img{
+	width: 400px;
+	height: 200px;
+}
+.container2 .slide{
+	width: 906px;
+	height: 288px;
+	overflow:hidden;
+	margin:0 auto;
+	height: 600px;
+	margin-left: 183px;
+}
+.container2 .carousel-indicators{
+	position: relative;
+	top:300px;
+	left:410px;
+}
+.container2 .slide .carousel-inner{
+	width: 1400px;
+}
+.container2 .slide .carousel-inner >.item{
+	display: block;
+	float:left;
+	opacity: 0.6;
+}
+.container2 .slide .carousel-inner >.item.active{
+	position: absolute;
+	z-index: 999;
+	left: 200px;
+	opacity: 1;
+}
+.container3{
+	height: 600px;
+	text-align: center;
+	background-color: pink;
+}
+.container3 input{
+	width: 600px;
+	margin-left: 50px;
+	margin-bottom: 20px;
+}
+.container3 button{
+	margin-top: 150px;
+	margin-bottom: 20px;
+}
