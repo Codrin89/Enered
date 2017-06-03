@@ -1,0 +1,27 @@
+#container1 {
+	background-color: red;
+	text-align: center;
+	 height: 200px;
+
+
+}
+#container2 {
+    background-color: green;
+   height: 200px;
+
+}
+#container3 {
+    background-color: pink;
+     height: 200px;
+     text-align: center;
+
+}
+.btn-danger {
+	width: 80px;
+	border-radius: 50%;
+}
+.btn-primary {
+	width: 80px;
+	border-radius: 50%;
+}
+}
