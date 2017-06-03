@@ -1,0 +1,23 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container-top{
+	height: 300px;
+	width: 100%;
+	background-color: red;
+}
+.container-mid{
+	height: 300px;
+	width: 100%;
+	background-color: grey;
+}
+.container-low{
+	height: 300px;
+	width: 100%;
+	background-color: blue;
+}
+.container-low .btn {
+	width: 33%;
+	display: inline-block;
+}
