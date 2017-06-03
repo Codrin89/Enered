@@ -1,0 +1,15 @@
+.container {
+	background-color: #00bfff;
+	text-align: center;
+	width: 100%;
+	height: 400px;
+}
+.btn-danger{
+	margin-top: 186px;
+}
+.lastslider {
+	height: 400px;
+	width: 100%;
+	text-align: center;
+	background-color: yellow;
+}
