@@ -39,21 +39,37 @@
 	
 	document.getElementById('addinput').addEventListener('click', function(){ 
         var input = document.createElement('input');
-        input.setAttribute('class','numbers');
+        input.setAttribute('class','form-control');
         input.setAttribute('type','text');
         document.getElementsByClassName('section3')[0].append(input);
         
 
    })
 
-    var array= [];
-    document.getElementsByClassName('numbers')[0].addEventListener('keydown', function(e){ 
-    	if(e.keyCode===13){
-    		x=this.value;
-            array.push(x);
-    	}
-     
-    });
-    console.log(array);
-	
+    document.getElementById('suminput').addEventListener('click', function(){ 
+        var inputs = document.getElementsByClassName('form-control');
+        var sumTotal = 0;
+        for(var i=0;i<inputs.length;i++){
+        	sumTotal += parseInt(inputs[i].value);
+        }
+        document.getElementsByClassName('section2')[0].innerHTML = sumTotal;
+        
+
+   });
+	document.getElementById('maxandmin').addEventListener('click', function(){ 
+        var inputs = document.getElementsByClassName('form-control');
+        //cand targhetam pe clase mereu se vor stoca valorile in arrays; doar cand targhetam pe id returneaza o singura valoare;
+        var min = inputs[0].value;
+        var max = inputs[0].value;
+        for(var i=1;i<inputs.length;i++){
+           if(max<inputs[i].value){
+           	   max = inputs[i].value;
+              }
+           if(min>inputs[i].value){
+           	   min = inputs[i].value;
+              }
+           }
+     document.getElementsByClassName('section2')[0].innerHTML = "min = " + min + "<br>" + "max= " +max;   
+
+   });
 })();

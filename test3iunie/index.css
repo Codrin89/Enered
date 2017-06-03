@@ -28,7 +28,6 @@
 	text-align: center;
     border-bottom: 1px solid black;
     min-height: 200px;
-    padding: 50px 510px;
     display: block;
 
 }
@@ -38,4 +37,8 @@
 	display: block;
 	margin-top: 40px;
 
+}
+.form-control {
+	width: 420px;
+	margin: auto;
 }
