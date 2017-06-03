@@ -1,0 +1,43 @@
+* {
+	margin:0;
+	padding: 0;
+
+}
+.container1 {
+	height: 300px;
+	margin:0 auto;
+	width: 100%;
+	background-color: grey;
+}
+.container2 {
+	height: 300px;
+	margin:0 auto;
+	width: 100%;
+	background-color: lightgrey;
+}
+.container3 {
+	height: auto;
+	margin:0 auto;
+	width: 100%;
+	background-color: lightblue;
+}
+.container1 button,
+.container2 button,
+.container3 button{
+	height: 100px;
+    width: 307px;
+    font-size: 39px;
+    margin-left: 78px;
+
+}
+img {
+	margin:0 auto;
+}
+.container3 input {
+	display: block;
+
+}
+p {
+	color: blue;
+	font-size: 30px;
+}
