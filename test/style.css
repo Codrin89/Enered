@@ -1,0 +1,11 @@
+body{
+	background-color: black;
+}
+.slide{
+	width: 900px;
+	margin: 0 auto;
+#myDiv {
+    width: 500px;
+    height: 500px;
+    background-color: lightblue;
+}
