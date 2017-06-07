@@ -16,10 +16,10 @@
    });
 
 document.getElementById('add').addEventListener('click', function(){
-var input = document.createElement("input");
-input.type = "text";
-input.classList.add("adaugare"); 
-footer.appendChild(input); 
+      var input = document.createElement("input");
+      input.type = "text";
+      input.classList.add("adaugare"); 
+      footer.appendChild(input); 
 
 });
 
@@ -35,16 +35,15 @@ document.getElementById('sum').addEventListener('click', function(){
 
 document.getElementById('min-max').addEventListener('click', function(){
    var comparare = document.getElementsByClassName('adaugare');
-   var rand = [1,2,3,7,20];
-   max = '20';
-   min = '1';
+   var max = parseInt(comparare[0].value);
+   var min = parseInt(comparare[0].value);
 
-   for(var i = 0; i < comparare.length; i++) {
-      if(max < rand[i]) {
-         max = rand[i];
+   for(var i = 1; i < comparare.length; i++) {
+      if(max < parseInt(comparare[i].value)) {
+         max = parseInt(comparare[i].value);
       }
-      if(min > rand[i]) {
-         min = rand[i];
+      if(min > parseInt(comparare[i].value)) {
+         min = parseInt(comparare[i].value);
       }
 
     }
