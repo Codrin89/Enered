@@ -1,0 +1,14 @@
+*{
+	margin: 0px;
+	padding:0px;
+}
+.popup{
+	display: none;
+
+}
+.popup img {
+	display: none;
+}
+input[type=radio].inputs{
+	margin-left: 20px;
+}

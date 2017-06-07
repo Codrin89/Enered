@@ -1,0 +1,19 @@
+*{
+	margin: 0;
+	padding:0;
+}
+.contaier{
+	text-align: center;
+}
+.container .box {
+	float: left;
+}
+.container .box .count {
+	max-height: 100%;
+	max-width: 100%;
+	width: calc(100% - 2px);
+	height: calc(100% - 2px);
+	border: 1px solid black;
+	display: block;
+
+}

@@ -39,9 +39,6 @@
 		}	
 
 	});
-	document.getElementById('getData').addEventListener('click',function(){
-		getData();
-	})
 
 	function getData() {
 		var xhr = new XMLHttpRequest ();
@@ -100,6 +97,15 @@
 		var textMass  = document.createTextNode("mass: " + personData.mass);
 		mass.append(textMass);
 
+
+		var arrayHomeworld = personData.homeworld.split('/');
+		var homeworldId = arrayHomeworld[arrayHomeworld.length - 2];
+		var homeworld = document.createElement('a');
+		homeworld.setAttribute('class' , 'homeworld');
+		homeworld.setAttribute('href' , 'planets.html?' + homeworldId);
+		var textHomeworld = document.createTextNode('Planet' + homeworldId);
+		homeworld.append(textHomeworld);
+
 		//person div append elements 
 		divPerson.append(name);
 		divPerson.append(eye);
@@ -108,10 +114,13 @@
 		divPerson.append(hair);
 		divPerson.append(height);
 		divPerson.append(mass);
+		divPerson.append(homeworld);
 
 
 
 		document.getElementsByClassName('sw-list')[0].append(divPerson);
 	}
+
+	getData();
 
 })();

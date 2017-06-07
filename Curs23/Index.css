@@ -1,0 +1,155 @@
+.container {
+	background-image: url("1.png");
+	height: 900px;
+	width: 100%;
+
+
+}
+.container ul li {
+	 list-style-type: none;
+	 display: inline-block;
+	 color: #ffffff;
+	 float: right;
+	 margin-right: 40px;
+	 text-transform: uppercase;
+	 font-size: 14px;
+}
+.container  ul  {
+	margin-top: -50px;
+	margin-right: 140px;
+
+}
+.container .about {
+	border-bottom: 2px solid #28c8c6;
+	padding-bottom: 25px;
+
+}
+.container .join {
+	width: 127px;
+	height: 45px;
+	background-color: #a100ff;
+	text-align: center;
+	padding-top: 11px;
+    margin-left: -10px;
+    margin-top: -11px;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+
+}
+.container .join  img {
+	float: right;
+	margin-right: 19px;
+    margin-top: 2px;
+}
+
+.container .arrow img {
+	margin-left: 135px;
+	margin-top: 70px;
+}
+.container .text {
+	margin-top: 200px;
+    margin-left: 132px;
+    color: #ffffff;
+   
+}
+.container .text h1 {
+	 font-size: 60px;
+	 text-transform: uppercase;
+}
+.container .text p {
+	font-size: 16px;
+	margin-top: 44px;
+}
+#inputEmail {
+	width: 280px;
+    height: 56px;
+    border-radius: 4px;
+    margin-top: 27px;
+   	background-image: url(4.png);
+    background-repeat: no-repeat;
+    background-position: 92%;
+
+}
+#inputPassword {
+	width: 280px;
+    height: 56px;
+    border-radius: 4px;
+    margin-top: 27px;
+    margin-left: 10px;
+    background-image: url(5.png);
+    background-repeat: no-repeat;
+    background-position: 92%;
+
+
+}
+.text .btn-primary {
+	background-image: url("6.png");
+	background-repeat: no-repeat;
+	background-color: #28c8c6 !important;
+	height: 56px;
+	width: 56px;
+	text-align: center;
+	margin-top: 27px;
+	margin-left: 10px;
+	border-style: none !important;
+	background-position: 50%;
+
+}
+.btn-default {
+	background-image: url("7.png");
+	height: 100px;
+	width: 100px;
+	background-repeat: no-repeat;
+	background-position: 50%;
+    border-radius: 50%;
+    border-style: none; 
+    margin-left: 50%;
+    margin-top: 184px;
+    position: absolute;
+    background-color: #ebeff3 !important;
+}
+.containercenter {
+	background-color: #ebeff3;
+	height: 544px;
+	padding-top: 122px;
+	overflow: hidden;
+	
+}
+.containercenter h2 {
+	text-align: center;
+	margin-top: 0px;
+	margin-left: 135px;
+	font-size: 40px;
+}
+.containercenter p {
+	text-align: center;
+	margin-left: 135px;
+	font-size: 14px;
+
+}
+.containercenter img {
+margin-left: 40%;
+margin-top: 83px;
+
+}
+.containercenter .btn-danger {
+	height: 100px;
+	width: 100px;
+	background-color: red;
+}
+.app h3 {
+	font-size: 30px;
+	text-align: center;
+	margin-left: 135px;
+}
+.app p {
+	font-size: 14px;
+	text-align: center;
+	margin-left: 135px;
+}
+.app .btn-success {
+	background-color: #28c8c6 !important;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+}

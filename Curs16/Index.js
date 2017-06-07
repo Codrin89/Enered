@@ -1,0 +1,52 @@
+//http://wallpaper-gallery.net/images/edm-wallpaper/edm-wallpaper-13.jpg
+(function(){
+
+		var img = document.getElementsByClassName('img-responsive');
+
+
+
+
+		for (var i=0; i<img.length; i++){
+			img[i].addEventListener('click' , function(){
+				var img = document.getElementsByClassName("img-responsive");
+				console.log('img:');
+				console.log(img);
+				var index;
+
+				for (var i = 0; i<img.length ;i++) {
+					console.log('iterator:' +i);
+					console.log(img[i]);
+					console.log(this);
+					if(img[i] == this){
+					index=i;
+					console.log('index' + index);
+					};
+				};
+				
+				if(this.src != 'http://www.uniwallpaper.com/static/images/eWtfMME_jJm8t1k.png'){
+					console.log(this.src);
+					this.setAttribute('data-src' , img[index].src);
+					this.src = 'http://www.uniwallpaper.com/static/images/eWtf1MME_jJm8t1k.png';
+					console.log(this.src);
+					console.log(img[index])
+				}else {
+					this.src = this.getAttribute('data-src');
+				};		
+		});
+	};
+
+		var clickCounter = document.getElementsByClassName('click-counter');
+		for (var i = 0; i<clickCounter.length; i++){
+			clickCounter[i].addEventListener('click' ,function(){
+				console.log(this);
+				 var counter = this.getElementsByClassName('counter');
+				 console.log(counter);
+				 if(counter[0].innerHTML == ''){
+				 	counter[0].innerHTML = 1;
+				 }else{
+				 	counter[0].innerHTML = parseInt(counter[0].innerHTML)+2;
+				 }
+			});
+		}
+
+})();

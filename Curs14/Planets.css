@@ -1,0 +1,22 @@
+p {
+	text-align: center;
+	font-size: 25px;
+    
+}
+h3 {
+
+	text-align: center;
+	font-size: 40px;
+	color:white;
+	width: 287px;
+    height: auto;
+    margin-left: 427px;
+    border-bottom : 1px solid #4477AA; 
+    padding: 0px 12px;
+
+	
+}
+body {
+	background: url('t.jpg') no-repeat;
+	background-size: cover;
+}

@@ -32,5 +32,20 @@
 
 	});
 
+	document.getElementById('minmax').addEventListener('click' , function(){
+		var inputs = document.getElementsByClassName('form-control');
+		var min = parseInt(inputs[0].value);
+		var max = parseInt(inputs[0].value);
+		for(var i = 1 ; i < inputs.length; i++){
+			if (max < parseInt(inputs[i].value)) {
+				max = parseInt(inputs[i].value);
+			}
+			if (min >  parseInt(inputs[i].value)) {
+				min = parseInt(inputs[i].value);
+			}
+		}
+		document.getElementById('Min').innerHTML += min;
+		document.getElementById('Max').innerHTML += max;
 
+	});
 })();
