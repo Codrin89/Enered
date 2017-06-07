@@ -1,0 +1,98 @@
+.navbar{
+
+}
+.navbar img {
+	width: 100%;
+	position: absolute;
+}
+.bulina img {
+	height: 66px;
+	width: 66px;
+	float: left;
+	margin-left: 200px;
+	margin-top: 70px;
+}
+.nav {
+	float: right;
+	margin-right:50px;
+	margin-top:50px;
+	
+}
+.btn h1 {
+	border-bottom: black;
+	width: 180px;
+	border:1px solid grey;
+	height: 80px;
+	text-align: center;
+	margin-top:-10px;
+	background-color: #a100ff;
+	border-radius: 5px;
+}
+
+.nav h1 {
+	position:relative;
+	font-family: arial;
+	color: white;
+	display: inline-block;
+	padding: 12px;
+}
+.write{
+	position: relative;
+	margin-top: 120px;
+	width: 640px;
+	line-height: 0.9;
+	/*margin-left: 200px;*/
+	
+}
+.write p {
+	font-family: arial;
+	color: white;
+	font-size: 50px;
+	margin-left: 200px;
+}
+.write p.font {
+	font-size: 10px;
+	font-family: arial;
+
+
+}
+.space .box p {
+	position: relative;
+	font-family: arial;
+	color: black;
+	display:inline-block;
+	padding-left: 20px;
+	padding-top: 15px;
+}
+.box img {
+	float: right;
+	margin-right: 15px;
+}
+.box .a {
+	border:1px solid grey;
+	height: 50px;
+	width: 250px;
+	background-color: white;
+	margin-left: 200px;
+	margin-top: 10px;
+	border-radius:5px;
+
+}
+.box .b {
+	border:1px solid;
+	border-color: white;
+	color: red;
+	height: 50px;
+	width: 250px;
+	background-color: white;
+	margin-left: 10px;
+	border-radius: 5px;
+}
+
+.container {
+	border:1px solid grey;
+
+}
+.footer {
+	border:1px solid;
+}
