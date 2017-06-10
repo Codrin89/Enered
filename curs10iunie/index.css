@@ -1,0 +1,59 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-image:url("image.png");
+	font-family: 'Segoe UI';
+}
+.btn1 {
+	background-color: grey;
+	width:140px;
+	height: 70px;
+	float: right;
+	color: #ffffff;
+	border:none;
+}
+.btn1 img,
+.btn2 img {
+	margin-right: 10px;
+}
+.btn2 {
+	background-color: #FF6B33;
+	width:140px;
+	height: 70px;
+	float: right;
+	color: #ffffff;
+}
+.container2 {
+    padding: 70px 0;
+}
+.container2 .input {
+    padding: 0 30px;
+    width: 450px;
+    height: 40px;
+    background: url(search.png) no-repeat #ffffff;
+    background-size: 23px;
+    background-position: 5px;
+}
+ .glyphicon-search{
+ 	width: 50px;
+	margin-left: 494px;
+	margin-top: 221px;
+	position: absolute;
+ }
+ .container-fluid {
+ 	margin-top: 170px;
+ 	float:left;
+ }
+ 
+ h1 {
+ 	margin-top: 0;
+ 	margin-left: 537px;
+ 	font-size: 22px;
+ }
+ .arrow {
+    font-size: 22px;
+    margin-left: -30px;
+ }
+
