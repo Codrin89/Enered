@@ -1,0 +1,63 @@
+body {
+	background: url(background.png);
+}
+.adm h3{
+	background-color: #fe580f;
+	height: 80px;
+	width: 150px;
+	text-align: center;
+	padding-top: 27px;
+	color: white;
+	font-size: 20px;
+	margin:0;
+}
+.slide h3 {
+	background-color: #7c8389;
+	height: 80px;
+	width: 150px;
+	text-align: center;
+	padding-top: 27px;
+	color: white;
+	font-size: 20px;
+	margin:0;
+}
+.navbar .adm .img {
+	padding-bottom: 20px;
+}
+.navbar .slide img {
+	margin-right:10px;
+}
+
+.navbar h3 {
+	float: right;
+	display: inline-block;
+	}
+.search {
+	height: 300px;
+	text-align:center;
+
+
+}
+.search input {
+	margin-top: 150px;
+	width: 400px;
+	height: 50px;
+	background-image: url(search.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    padding-left: 50px;
+
+}
+.btn {
+	margin-left: -50px;
+	background-color: transparent;
+}
+.container-fluid p {
+	text-align: center;
+	color: #666666;
+	font-size: 20px;
+	margin-top: 80px;
+}
+.container {
+	width: 100%
+}
