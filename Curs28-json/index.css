@@ -1,0 +1,134 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+.container{
+	width: 100%;
+	background-image:url("back.jpg");
+	height: 794px;
+	padding: 0;
+}
+.btn{
+	float: right;
+	border-radius: 0;
+	margin-right: 0;
+}
+.basic{
+	color: white;
+	background-color: #7c8389;
+
+}
+.btn-warning{
+	background-color: #fe580f;
+	
+}
+.search{
+	height: 35px;
+	width: 470px;
+	background-color: white;
+	margin-top: 8%;
+	/*position: absolute;*/
+}
+.fa-search{
+	    margin: 1% 0% 0 1%;
+	    position: absolute;
+	    display: inline-block;
+	    color: #45515e;
+	    transform: rotate(90deg);
+}
+.text_search{
+	color: #45515e;
+	position: relative;
+	display: inline-block;
+	margin-left: 9%;
+	margin-top: 2%;
+}
+.fa-long-arrow-right{
+
+    margin-left: 66%;
+    color: #45515e;
+    
+}
+.about{
+  	text-align: center;
+  	font-weight: 28px;
+  	 margin-top: 8%;
+  	 margin-bottom: 2%;
+  	 color: #666666;
+}	
+.lists{
+	width: 95%;
+	margin-left: 4%;
+	margin-right: 1%;
+	display: inline-block;
+}
+.list{
+	display: inline-block;
+	/*width: 8%;
+	height: 8%;*/
+	margin-right: 3%;
+	position: relative;
+}
+.lists .list img{
+    width: 294px;
+    height: 200px;
+	
+}
+
+.list .image {
+	position: relative;
+}
+.list .image .box-select {
+	display: none;
+	position: absolute;
+    height: 100%;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: rgba(254, 88 , 15 , 0.5);
+    color: white;
+    text-align: center;
+    padding-top:30%;
+}
+.list .image:hover .box-select{
+	display: block;
+}
+
+.table{
+	width: 294px;
+    height: 200px;
+    background-color: white;
+    padding-top: 1%;
+}
+#score1,#score2,#score3,#score4{
+	text-align: center;
+	font-size: 14px;
+}
+.sub_score{
+	color: #b4c2c9;
+	padding-left: 6%;
+	padding-bottom: 4%;
+}
+.sub_sub_score{
+	padding-left: 6%;
+}
+.btn-default{
+	width: 16%;
+	height: 13%;
+	margin-right: 1%;
+	float: left;
+	color: #b4c2c9;
+	border-color: #869eaa;
+	
+}
+.border{
+	border-top: 1px solid #eff6fc;
+	margin-top: -26%;
+
+}
+.prev_download #prev{
+	 width: 23px;
+	 height: 23px;
+	 margin-left: 6%;
+	 margin-top: 5%;
+}
