@@ -1,0 +1,6 @@
+.box {
+	float: left;
+	width: 30%;
+	height: 100%;
+	display: inline-block;
+}

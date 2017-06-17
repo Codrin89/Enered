@@ -56,4 +56,54 @@ body {
     font-size: 22px;
     margin-left: -30px;
  }
+p {
+	font-size: 12px;
+	float: right;
+	margin-right: 128px;
+}
+.doi p {
+	font-size: 10px;
+	margin-right: 288px;
+}
+.trei p{
+	font-size: 20px;
+	margin-right: 310px;
+}
+.patru {
+	float: right;
+	margin-right: 180px;
+}
+.cinci {
+	float: right;
+	margin-right: 220px;
+}
+.sase {
+	float: right;
+	margin-right: 210px;
+}
+.sapte {
+	float: right;
+	margin-right: 200px;
+}
+.opt img {
+	
+}
 
+.container3 .opt .aaa{
+	margin-right: 20px;
+}
+.container3 .opt .bbb {
+	margin-right: 20px;
+}
+.container3 .opt .ccc {
+	margin-right: 20px;
+}
+.container3 .opt .ddd {
+	
+	margin-right: 20px;
+}
+.chenar  {
+	width: 100px;
+	height: 200px;
+	color: darkgrey;
+}
