@@ -1,0 +1,29 @@
+/*.description-wrapper{
+	width: 27%;
+    display: inline-block;
+    border: 1px solid black;
+}*/
+
+
+p{
+	    padding-left: 2%;
+	    padding-right: 2%;
+}
+
+.form-wrapper,.description-wrapper{
+	border: 1px solid black;
+	width: 30%;
+    display: inline-block;
+    margin-left: 2%;
+}
+ h1{
+	text-align: center;
+}
+.form-wrapper input{
+	    width: 63%;
+	    margin-left: 19%;
+}
+.form-wrapper .btn-primary{
+	    display: block;
+	    margin-left: 41%;
+}
