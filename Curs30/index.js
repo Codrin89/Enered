@@ -108,6 +108,9 @@
 		var buttons=document.getElementsByTagName('button');
 		for(var i=0 ; i<buttons.length ;i++){
 			buttons[i].addEventListener('click',function(){
+				if(this.parentElement.getElementsByTagName('p').length > 0){
+					this.parentElement.getElementsByTagName('p')[0].removeChild();
+				}
 				console.log(this);
 				console.log(this.parentElement);
 
