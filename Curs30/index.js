@@ -82,34 +82,47 @@
 			inputFormName.setAttribute('type' , 'text');
 			inputFormName.setAttribute('placeholder','Name');
 			inputFormName.setAttribute('value',items2[i].name);
-			// var inputNameText= document.createTextNode(items2[i].name);
-			// inputFormName.append(inputNameText);
 
 
 			var inputFormPass=document.createElement('input');
 			inputFormPass.setAttribute('type','password');
 			inputFormPass.setAttribute('placeholder','Password');
 			inputFormPass.setAttribute('value',items2[i].password);
-			// var inputPassText= document.createTextNode(items2[i].password);
-			// inputFormPass.append(inputPassText);
 
 			var button=document.createElement('button');
 			button.setAttribute('class','btn btn-primary');
 			var btnText= document.createTextNode(items2[i].submit);
 			button.append(btnText);
-			// button.setAttribute('Submit');
-
 
 			formWrap.append(headerForm);
 			formWrap.append(inputFormName);
 			formWrap.append(inputFormPass);
 			formWrap.append(button);
 
-
-
 			document.getElementsByClassName('form-box')[0].append(formWrap);
+			
+		}
+		bindEvents();
 	}
-}
+	function bindEvents() {
+		var buttons=document.getElementsByTagName('button');
+		for(var i=0 ; i<buttons.length ;i++){
+			buttons[i].addEventListener('click',function(){
+				console.log(this);
+				console.log(this.parentElement);
+
+				var inputs= this.parentElement.getElementsByTagName('input');
+				var textNode = document.createTextNode('Name: ' + inputs[0].value + '  -> Password: ' + inputs[1].value);
+				var paragraph = document.createElement('p');
+				paragraph.append(textNode);
+				this.parentElement.append(paragraph);
+			});
+
+		}
+
+	}
+
+
 
 form(items2);
 
