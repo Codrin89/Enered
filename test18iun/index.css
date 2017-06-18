@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	text-align: center;
+}
+.description-wrapper {
+	text-align: center;
+	width: 33%;
+	display: inline-block;
+	margin-bottom: 10px;
+
+}
+.form-wrapper {
+    margin-bottom: 10px;
+    width: 33%;
+	display: inline-block;
+	text-align: center;
+	
+
+}
+.seconddiv{
+    display: flex;
+
+}
+#my-text {
+	display: block;
+}
+
