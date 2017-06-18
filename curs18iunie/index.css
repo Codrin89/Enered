@@ -1,0 +1,48 @@
+* {
+	background-color: lightgrey;
+}
+.description-text .description-wrapper {
+	width: 32%;
+	display: inline-block;
+	border:3px solid blue;
+	padding: 0 2px;
+}
+.form-text {
+	color:red;
+	font-family: verdana;
+}
+.form-box .form-wrapper {
+	width: 32%;
+	display: inline-block;
+	border:2px solid blue;
+	color: purple;
+
+}
+
+.name {
+		background-color:white;
+}
+.password {
+		background-color:white;
+}
+.buton1 {
+		background-color:red;
+		border-radius: 50%;
+		width:82px;
+}
+.text {
+	color: green;
+}
+.form-box .form-wrapper .name:hover {
+	background-color: red;
+}
+.form-box .form-wrapper .password:hover {
+	background-color: red;
+}
+.form-box .form-wrapper .buton1:hover {
+	background-color: yellow;
+}
+p {
+	color:blue;
+	border:2px solid blue;
+}
