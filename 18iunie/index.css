@@ -1,0 +1,50 @@
+
+body{
+	background-color: grey;
+}
+
+.description-text .description-wrapper{
+	display: inline-block;
+	width: 32%;
+
+}
+.description-text .description-wrapper h1{
+	font-weight: bold;
+	font-family: cursive;
+	text-shadow: 2px 1px  orange;
+}
+
+.description-text .description-wrapper p{
+	font-family: verdana;
+	text-indent: 60px;
+	font-style: italic;
+	font-weight: bold;
+
+}
+
+.form-text .continut {
+	display: inline-block;
+	margin: 10px;
+}
+.form-text .continut h1{
+	font-weight: bold;
+	font-family: cursive;	
+	text-shadow: 2px 1px  orange;
+}
+
+.form-text .continut {
+	float:left;
+}
+.form-text .continut .name:hover {
+	background-color: lightblue;
+}
+
+.form-text .continut .password:hover {
+	background-color: pink;
+}
+
+.form-text .continut .btn-warning:hover {
+	background-color: red;
+	border-radius: 50px;
+}
+
