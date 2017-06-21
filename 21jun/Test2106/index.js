@@ -21,24 +21,7 @@
 		}
 	];
    
-    function createForm(){
-     var buttons = document.getElementsByClassName('btn btn-warning');
-     for(var j=0;j<buttons.length;j++){
-      buttons[j].addEventListener('click', function(){
-         if(this.parentElement.getElementsByTagName('p').length > 0){
-            this.parentElement.removeChild(this.parentElement.lastChild);
-         }
-         var inputs = this.parentElement.getElementsByTagName('input');
-         var textNode = document.createTextNode("Nume: "+ inputs[0].value + " Prenume: " + inputs[1].value + " Password: " + inputs[2].value);
-         var paragraph = document.createElement('p');
-         paragraph.append(textNode);
-         this.parentElement.append(paragraph);
-      }) 
-     } 
-   }
-
-   createForm();    
-
+  
    document.getElementById('createElements').addEventListener('click',function createElements(elementsLength){
    function createElements(elementsLength){
    	   for(var i=0;i<elementsLength;i++){
@@ -97,14 +80,9 @@
      var buttons = document.getElementsByClassName('btn btn-warning');
      for(var j=0;j<buttons.length;j++){
       buttons[j].addEventListener('click', function(){
-         if(this.parentElement.getElementsByTagName('p').length > 0){
-            this.parentElement.removeChild(this.parentElement.lastChild);
-         }
+      
          var inputs = this.parentElement.getElementsByTagName('input');
-         var textNode = document.createTextNode("Nume: "+ inputs[0].value + " Prenume: " + inputs[1].value + " Password: " + inputs[2].value);
-         var paragraph = document.createElement('p');
-         paragraph.append(textNode);
-         this.parentElement.append(paragraph);
+         this.parentElement.getElementsByTagName('p')[0].innerHTML= "Nume: "+ inputs[0].value + " Prenume: " + inputs[1].value + " Password: " + inputs[2].value;
       }) 
      } 
    }
