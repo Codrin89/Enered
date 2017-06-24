@@ -27,8 +27,8 @@ document.getElementsByClassName('btn-success')[0].addEventListener('click',funct
 	  function getDataFromPage() {
 	       var formData = {};
 	       console.log(formData);
-	       formData.user = document.getElementById('user').value;
-	       formData.user2 = document.getElementById('user2').value;
+	       formData.user = document.getElementById('user').value + ' ' + document.getElementById('user2').value;
+	      console.log(formData.user);
 	       formData.password = document.getElementById('password').value;
 	       formData.city = document.getElementById('city').value;
 	       formData.country = document.getElementById('country').value;
@@ -53,5 +53,22 @@ document.getElementsByClassName('btn-success')[0].addEventListener('click',funct
  	document.getElementById('user').value = splitText[0] + ' ' + splitText[1];
  	document.getElementById('user2').value = splitText[2];
  	console.log(splitText);
- 
+
+
+ 	 function manipulateData() {
+ 	 	var string = 'lorem ipsum . sit dolor . amet , something , something@';
+ 	 	var string1 = string;
+ 	 	var string2 = string;
+ 	 	var string3 = string;
+ 	 	var split1 = string1.split('.');
+ 	 	console.log(split1);
+ 	 	var split2 = string2.split(',');
+ 	 	console.log(split2);
+ 	 	var split3 = string3.split('@');
+ 	 	console.log(split3);
+ 	 }
+
+ 	manipulateData();
+
+
 })();
