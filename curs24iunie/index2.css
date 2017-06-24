@@ -1,0 +1,11 @@
+.description {
+	width:1140px;
+	display: inline-block;
+	border-radius: 10px;
+}
+.btn-success {
+	margin-left: 150px;
+	display: inline-block;
+}
+.btn-success:hover{
+	background-color:red;
