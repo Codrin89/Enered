@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.footer{
+	background-color: lightgrey;
+	display: inline-block;
+    width: 100%;
+    height: 80px;
+
+}
+.text-right{
+   text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+.open-close{
+	/*display: grid;*/
+}
+.btn-primary{
+   margin-top: 12px;
+  /* margin-right: 6%;*/
+    margin-left: 25%;
+    width: 50%;
+ }
