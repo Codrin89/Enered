@@ -1,0 +1,116 @@
+* {
+	margin: 0;
+	padding: 0;
+
+}
+body {
+	background-image: url('background.jpg');
+	min-height: 100vh; /*viewport height*/
+	min-width: 100%;
+
+}
+/*//utility*/
+.displayNone {
+	display: none !important;
+}
+.header {
+	height: 80px;
+}
+.header button {
+	float: right;
+	padding: 30px 37px;
+	font-size: 15px;
+	border: none;
+	outline: none;
+	color: #fff;
+	font-family: 'Segoe UI';
+
+}
+.header button.btn-grey {
+	background-color: #7c8389;
+}
+.header button.btn-orange{
+	background-color: #fe580f;
+}
+.search-bar .pre-searched {
+	text-align: center;
+	padding: 150px 0;
+}
+.search-bar .pre-searched input {
+	height: 35px;
+	font-size: 15.6666px;
+	font-family: 'Segoe UI';
+	padding: 0 20px;
+	width: 350px;
+	outline: none;
+	border: 1px solid white;
+}
+.search-bar .pre-searched input:focus {
+	border: 1px solid #84b8fa;
+}
+.profile-box {
+	width: 16%;
+	float: left;
+	background-color: #fff;
+	margin: 0 0.25%;
+	margin-top: 20px;
+
+}
+.text{
+	padding: 20px 30px;
+	font-family: 'Segoe UI';
+
+}
+.delete {
+	background: #fff;
+	border:none;
+	width: 100%;
+	padding: 10px 0;
+}
+h3{
+	color: #959595;
+	font-size: 18px;
+
+
+
+}
+.creation-date {
+	padding: 10px 0;
+	color: #c6d1d7;
+	font-size: 12px;
+
+}
+h4 {
+	padding: 8px 0;
+	font-size: 12px;
+	color: #8c8c8c;
+
+}
+.email {
+    border-bottom: 1px solid #e4e7eb;
+    padding-bottom: 40px; 
+    color: #bfcbd1;
+    font-size: 13px;
+    font-weight: bold;
+
+
+}
+#del {
+	padding: 4px;
+	float: left;
+}
+.lab {
+	text-align: left;
+	padding: 7px;
+	color: #8c8c8c;
+	font-size: 14px;
+}
+.content-wrapper {
+	margin: 0 30px;
+}
+.img img {
+	width: 100%;
+}
+
+
+/*pt body vw nu vede daca am scroll in dreapta de aceea mai bine folosim %*/
