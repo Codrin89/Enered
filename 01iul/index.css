@@ -5,6 +5,7 @@
 }
 body {
 	background-image: url('background.jpg');
+	background-size: auto 100%;
 	min-height: 100vh; /*viewport height*/
 	min-width: 100%;
 
@@ -59,13 +60,19 @@ body {
 .text{
 	padding: 20px 30px;
 	font-family: 'Segoe UI';
+	height: 180px;
+	position: relative;
 
 }
 .delete {
 	background: #fff;
 	border:none;
-	width: 100%;
+	width: 160px;
 	padding: 10px 0;
+	border-top: 1px solid #e4e7eb;
+	position: absolute;
+	bottom: 0;
+
 }
 h3{
 	color: #959595;
@@ -87,10 +94,9 @@ h4 {
 
 }
 .email {
-    border-bottom: 1px solid #e4e7eb;
     padding-bottom: 40px; 
     color: #bfcbd1;
-    font-size: 13px;
+    font-size: 11px;
     font-weight: bold;
 
 
