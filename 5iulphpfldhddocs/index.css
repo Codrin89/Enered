@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.content {
+	text-align: center;
+}
+.data {
+	border: 1px solid red;
+	width: 33%;
+	display: inline-block;
+	height: 150px;
+	text-align: center;
+	margin-top: 20px;
+
+}
+.name {
+	font-size: 25px;
+	text-decoration: underline;
+	padding: 5px;
+
+}
+.age {
+	color: grey;
+	padding: 10px;
+
+}
+.profession {
+	color: red;
+	font-weight: bold;
+	padding: 20px;
+}
