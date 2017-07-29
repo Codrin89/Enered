@@ -1,0 +1,84 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-image:url('background.png');
+	min-height: 100vh;
+	min-width: 100%;
+}
+.displayNone {
+	display: none !important;
+}
+.header {
+	height: 80px;
+}
+.header button {
+	float: right;
+	padding: 30px 37px;
+	font-size: 15px;
+	color: #fff;
+	border: none;
+	outline: none;
+	font-family: 'Segoe UI';
+}
+.header button.btn-grey {
+	background-color: #7c8389;
+}
+.header button.btn-orange {
+	background-color: #fe580f;
+}
+.search-bar .pre-searched {
+	text-align: center;
+	padding: 150px 0;
+}
+.search-bar .pre-searched input {
+	height: 35px;
+	font-size: 16px;
+	font-family: 'Segoe UI';
+	padding: 0 20px;
+	width: 350px;
+	outline: none;
+	border: white;
+}
+.search-bar .pre-searched input:focus {
+	border: 1px solid #84b8fa;
+}
+.profile-box {
+	width: 19.6666%;
+	float: left;
+	padding: 0 10px;
+	margin-right: 1px;
+	margin-left: 1px;
+}
+.profile-box .creation-date {
+	font-size: 13px;
+	font-style: italic;
+	font-family: 'Segoe UI';
+	height: 35px;
+	background-color: white;
+
+}
+.profile-box .email {
+	font-size: 13px;
+	font-style: italic;
+	font-family: 'Segoe UI';
+	height: 35px;
+	background-color: white;
+}
+.profile-box h3 {
+	height: 35px;
+	background-color: white;
+}
+.profile-box .mail {
+	background-color: white;
+}
+.profile-box .delete {
+	border:none;
+	font-family: 'Segoe UI';
+	width: 280px;
+	border-top: 2px solid black;
+	background-color: white;
+	height: 50px;
+
+}
