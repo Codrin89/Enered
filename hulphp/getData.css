@@ -1,0 +1,33 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body.container{
+	background-color: lightgrey;
+}
+.loginContainer {
+	background-color: white;
+	margin-top: 100px;
+	text-align: center;
+	
+
+}
+.form-control {
+	text-align: center;
+    margin: 15px 0;
+}
+.btn-danger{
+	margin: 5px 0;
+}
+.inputs {
+	padding: 0 30px;
+}
+h3 {
+	font-weight: bold;
+	color: navy;
+
+}
+
+
+
+	

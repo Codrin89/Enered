@@ -1,0 +1,6 @@
+.displayNone {
+	display: none !important;
+}
+.has-error {
+	border:1px solid red !important;
+}
