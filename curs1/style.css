@@ -1,0 +1,34 @@
+h1{
+  color:black;
+}
+
+  button{
+    color: purple !important;
+    outline: none;
+    border:1px solid transparent;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+  }
+  .button{
+    color:red;
+  }
+input{
+  color:green;
+}
+input:hover{
+  color:yellow;
+}
+.container{
+  width: 100%;
+  text-align: center;
+
+}
+.container img{
+
+}
+body{
+  text-align: center;
+  background-color:rgba(100, 100, 100, 1);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
