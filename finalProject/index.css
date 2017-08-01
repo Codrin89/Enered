@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	height: 100%;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+}
+.logoLogin{
+    background-color: black;
+    height: 100px;
+
+}
+.navbar{
+    background-color: grey;
+    height: 50px;
+	padding: 0 22px;
+	text-align: center;
+}
+.container{
+    background-image: url("grey.jpg");
+    min-height: 100%;
+
+}
+.navbar ul li{
+	display: inline;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: black;
+}
+.logoLogin .btn-danger{
+    float: right;
+}
