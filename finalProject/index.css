@@ -3,34 +3,116 @@
 	padding: 0;
 }
 body{
-	height: 100%;
-	position: fixed;
-	height: 100%;
+	min-height: 100%;
 	width: 100%;
-}
-.logoLogin{
-    background-color: black;
-    height: 100px;
 
 }
-.navbar{
-    background-color: grey;
-    height: 50px;
+
+.logoLogin{
+    background-color: #363636;
+    height: 15%;
+    position: fixed;
+    width: 100%;
+
+}
+.logoLogin a img {
+   height: 85%;
+   width: 10%;
+   margin: 10px;
+}
+.mynavbar{
+    background-image: url("grey.jpg");
+    height: 10%;
 	padding: 0 22px;
 	text-align: center;
+	position: fixed;
+	width: 80%;
+	top: 80px;
+	left: 10%;
+	display: inline-block;
+	border: 1px solid #9c9b9b;
+	font-family: 'Aller';
 }
-.container{
-    background-image: url("grey.jpg");
-    min-height: 100%;
+.content{
+    background-color: #eae7e7;
+    min-height: 100vh;
+    padding-top: 100px;
 
 }
-.navbar ul li{
+
+.mynavbar ul li{
 	display: inline;
+
 }
-.navbar ul li a{
+.mynavbar ul li a{
 	text-decoration: none;
 	color: black;
 }
 .logoLogin .btn-danger{
     float: right;
+}
+.content .loginPage h3 {
+	margin: 0;
+}
+.content .loginPage {
+	text-align: center;
+	padding: 15%;
+	display: none;
+}
+.content .registerPage {
+	text-align: center;
+	padding: 15%;
+	display: none;
+}
+.btn-danger{
+	height: 40%;
+	margin: 2%;
+
+}
+#myInfoAfterLogin{
+	display: none;
+}
+.blackAndWhite{
+	background-color: #f5f3f3 !important;
+	color: #363636 !important;
+	font-weight: bolder !important;
+	border: 1px solid black !important;
+	font-family: 'Hamurz Free Version';
+	-webkit-box-shadow:none; 
+    border-color:#cccccc;
+
+}
+.btn-danger:active {
+    background: #d8d5d5 !important;
+    box-shadow: none !important;
+    outline: 0 none !important;
+    border:none !important;
+    box-shadow:none !important;
+    -webkit-box-shadow:none !important; 
+
+}
+..btn-danger:focus{
+	box-shadow: none !important;
+    outline: 0 none !important;
+    border:none !important;
+    box-shadow:none !important;
+    -webkit-box-shadow:none !important; 
+
+}
+.add-on .form-control:focus {
+ box-shadow:none;
+ -webkit-box-shadow:none; 
+ border-color:#cccccc; 
+}
+.mynavbar a img{
+	width: 30px;
+	height: 30px;
+}
+.mysearch {
+	position: fixed;
+	width: 30%;
+	left: calc((100% - 30%)/2);
+	text-align: center;
+	top: 20%;
+	display: none;
 }

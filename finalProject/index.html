@@ -3,33 +3,65 @@
 <head>
 	<title>The bookaholic's dealer</title>
 	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	
 </head>
 <body>
     <div class="logoLogin">
-        <a id="logo" href="#"><img src="logo.png" alt="Logo"></a>
-        <button id="loginButton" class="btn btn-danger">Login</button>
-        <button id="myInfoAfterLogin" class="btn btn-danger">My info</button>
+        <a id="logo" href="#"><img src="logo.png" id="logo" alt="Logo"></a>
+        <button id="loginButton" class="btn btn-danger blackAndWhite">Login</button>
+        <button id="myInfoAfterLogin" class="btn btn-danger blackAndWhite">My info</button>
     </div>
-    <div class="navbar">
+    <div class="mynavbar">
         <ul>
-   	  	     <li id="home"><a href="#"><img src="home.png"></a></li>
    	  	     <li id="howToOrder"><a href="#">How to order</a></li>
+   	  	     <li><a id="search" href="#"><img src="search.png"></a></li>
    	  	     <li id="fullBookList"><a href="#">Full book list</a></li><br>
-   	  	     <a id="bascket" href="#"><img src="bascket.png" alt="bascket"></a>
+   	  	     <a id="bascket" href="#"><img src="basket.png" alt="bascket"></a>
    	    </ul>
     </div>
-    <div class="container">
+    <div class="mysearch" id="mysearch">
+        <form class="navbar-form" role="search">
+            <div class="input-group add-on">
+                <input class="form-control" placeholder="Search" name="srch-term" id="srch-term" type="text">
+                    <div class="input-group-btn">
+                        <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                    </div>
+            </div>
+        </form>  
+    </div>      
+    <div class="content">
         <div class="loginPage">
-        	
+            <h3>Login</h3>
+        	<input class="form-control" type="text" name="usernameEmail" placeholder="Username/Email">
+        	<input class="form-control" type="text" name="password" placeholder="Password">
+        	<button id="login" class="btn btn-danger">Login</button>
+        	<p>If you don't have an account you can register <a href="#">here</a>.</p>
+        	<p>Click <a href="#">here</a> if you forgot your password.</p>
         </div>
         <div class="registerPage">
-        	
+        	<h3>Register</h3>
+        	<input class="form-control" type="text" name="firstname" placeholder="First Name">
+        	<input class="form-control" type="text" name="lastname" placeholder="Last Name">
+        	<label>Date of birth</label>
+        	<input class="form-control" type="date" name="birthdate" placeholder="Date of birth">
+        	<input class="form-control" type="text" name="username" placeholder="Username">
+        	<input class="form-control" type="text" name="Email" placeholder="Email">
+        	<input class="form-control" type="text" name="Password" placeholder="Password">
+        	<input class="form-control" type="text" name="Password2" placeholder="Repeat password">
+        	<textarea class="form-control" name="Address" placeholder="Address"></textarea>
+        	<button id="register" class="btn btn-danger">Register</button>
+        	<p>If you already have an account you can login <a href="#">here</a>.</p>
         </div>
         <div class="">
         	
         </div>
     	
     </div>
+
+
+    <script src="index.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </body>
 </html>

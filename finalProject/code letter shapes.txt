@@ -1,0 +1,100 @@
+Shapes 1 : small
+Shapes 2 : medium
+Shapes 3 : Long
+
+//////////////// I love you in secret ////////////////////////////////
+
+A a a a = A_3
+
+B b = B_1
+B b b = B_2
+B b b b = B_3
+
+C c = C_1
+C c c c = C_3
+
+D d = D_1
+D d d = D_2
+D d d d = D_3
+
+E e = E_1
+E e e = E_2
+E e e e = E_3
+
+f f = F_1
+F f f = F_2
+F f f f = F_3
+
+G g g = G_2
+G g g g = G_3
+H h h h = H_3
+
+I i i = I_2
+I i i i = I_3
+
+J j = J_1
+J j j = J_2
+J j j j = J_3
+
+K k = K_1
+K k k = K_2
+K k k k = K_3
+
+l l = l_4
+L l = L_2
+L l l = L_3
+
+M m = M_1
+M m m = M_2
+M m m m = M_3
+
+N n n = N_2
+N n n n = N_3
+
+O o = O_1
+O o o = O_2
+O o o o = O_3
+
+P p p = P_2
+P p p p = P_3
+
+Q q = Q_1
+Q q q = Q_2
+Q q q q = Q_3
+
+R r = R_1
+R r r = R_2
+R r r r = R_3
+
+S s = S_1
+S s s = S_2
+S s s s = S_3
+
+t t = T_1
+T t t = T_2
+T t t t = T_3
+
+U u = U_1
+U u u = U_2
+U u u u = U_3
+
+V v = V_1
+V v v = V_2
+V v v v = V_3
+
+W w = W_1
+W w w = W_2
+W w w w = W_3
+
+X x = X_1
+X x x = X_2
+X x x x = X_3
+
+Y y = Y_1
+Y y y = Y_2
+Y y y y = Y_3
+
+Z z z = Z_2
+Z z z z = Z_3
+
+///////////////////////////All the Best ! ////////////////////////////////////
