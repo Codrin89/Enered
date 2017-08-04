@@ -22,6 +22,8 @@ body{
 }
 .mynavbar{
     background-image: url("grey.jpg");
+    background-repeat: no-repeat;
+    background-size: 150%;
     height: 10%;
 	padding: 0 22px;
 	text-align: center;
@@ -84,21 +86,11 @@ body{
 }
 .btn-danger:active {
     background: #d8d5d5 !important;
-    box-shadow: none !important;
-    outline: 0 none !important;
     border:none !important;
-    box-shadow:none !important;
-    -webkit-box-shadow:none !important; 
+
 
 }
-..btn-danger:focus{
-	box-shadow: none !important;
-    outline: 0 none !important;
-    border:none !important;
-    box-shadow:none !important;
-    -webkit-box-shadow:none !important; 
 
-}
 .add-on .form-control:focus {
  box-shadow:none;
  -webkit-box-shadow:none; 
