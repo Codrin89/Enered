@@ -1,0 +1,25 @@
+*{
+	margin:0;
+	padding: 0;
+}
+.description-wraper {
+	width: 33%;
+	display: inline-block;
+	background-color:lightgrey;
+	border:1px solid grey;
+	margin-left: 3px;
+}
+.form-wrapper{
+	display: inline-block;
+	background-color: lightblue;
+	width: 475px ;
+	height: 119px auto;
+	border:1px solid grey;
+	margin-left: 3px;
+	float: left;
+}
+.div {
+	height: 30px;
+
+
+}

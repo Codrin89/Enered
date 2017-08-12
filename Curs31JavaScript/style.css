@@ -1,0 +1,43 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body {
+	background-color: grey;
+}
+.html-create {
+	
+	min-height: 200px;
+	width: 100%;
+	float:left;
+}
+.box{
+	width: 33%;
+	display: inline-block;
+}
+.box-img{
+	width: 33%;
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+.js-create{
+	
+	min-height: 200px;
+	width: 100%;
+	float:left;
+}
+.jquery-create{
+	
+	min-height: 200px;
+	width: 100%;
+	float:left;
+}

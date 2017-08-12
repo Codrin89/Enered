@@ -1,0 +1,61 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header {
+	width: 100%;
+    height: 65px;
+    background-color: lightgrey;
+}
+
+.header .login-main .btn-success{
+	float: right;
+}
+
+.header .login-main input{
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-container{
+	width: 100%;
+    height: ;
+    background-color: lightblue;
+}
+
+
+
+
+
+
+
+.footer {
+	width: 100%;
+    height: ;
+    background-color: blue;
+}
